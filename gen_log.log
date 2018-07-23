@@ -1,0 +1,27 @@
+[E][tm:2018-07-23 14:37:55,085][pt:25864:23892][ln:__init__:90][svid:-:-][sn:ee034e9e8e4211e880dc4ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:39:25,770][pt:13532:25732][ln:__init__:90][svid:-:-][sn:241f3c5e8e4311e8afb64ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:40:27,845][pt:13532:25732][ln:__init__:90][svid:-:-][sn:241f3c5e8e4311e8afb64ccc6a8d7e16][tp:GN]	'NoneType' object has no attribute 'app_context'
+    Traceback (most recent call last):
+      File "D:/flask_base_plus\app\base_utils\email_util.py", line 18, in _send_email
+        with get_app().app_context():
+    AttributeError: 'NoneType' object has no attribute 'app_context'
+[E][tm:2018-07-23 14:41:46,250][pt:2924:27668][ln:__init__:90][svid:-:-][sn:76f08f708e4311e8820b4ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:42:42,209][pt:2924:27668][ln:__init__:90][svid:-:-][sn:76f08f708e4311e8820b4ccc6a8d7e16][tp:GN]	'NoneType' object has no attribute 'app_context'
+    Traceback (most recent call last):
+      File "D:/flask_base_plus\app\base_utils\email_util.py", line 18, in _send_email
+        with get_app().app_context():
+    AttributeError: 'NoneType' object has no attribute 'app_context'
+[E][tm:2018-07-23 14:42:56,740][pt:2924:27668][ln:__init__:90][svid:-:-][sn:a20b694f8e4311e896a84ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:43:02,642][pt:2924:27668][ln:__init__:90][svid:-:-][sn:a20b694f8e4311e896a84ccc6a8d7e16][tp:GN]	'NoneType' object has no attribute 'app_context'
+    Traceback (most recent call last):
+      File "D:/flask_base_plus\app\base_utils\email_util.py", line 18, in _send_email
+        with get_app().app_context():
+    AttributeError: 'NoneType' object has no attribute 'app_context'
+[E][tm:2018-07-23 14:43:11,197][pt:2924:27668][ln:__init__:90][svid:-:-][sn:aaa95fde8e4311e89f274ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:43:17,099][pt:2924:27668][ln:__init__:90][svid:-:-][sn:aaa95fde8e4311e89f274ccc6a8d7e16][tp:GN]	'NoneType' object has no attribute 'app_context'
+    Traceback (most recent call last):
+      File "D:/flask_base_plus\app\base_utils\email_util.py", line 18, in _send_email
+        with get_app().app_context():
+    AttributeError: 'NoneType' object has no attribute 'app_context'
+[E][tm:2018-07-23 14:47:20,976][pt:21636:23512][ln:__init__:90][svid:-:-][sn:3f8a79008e4411e8b1a24ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero
+[E][tm:2018-07-23 14:54:13,523][pt:18528:22280][ln:__init__:90][svid:-:-][sn:356fff218e4511e8bc1b4ccc6a8d7e16][tp:GN]	notify handle error: integer division or modulo by zero

@@ -1,0 +1,24 @@
+version: '2'
+services:
+  nginx:
+    image: cqgcu-enroll-manager-nginx
+    restart: always
+    hostname: cqgcu.axinfu
+    ports:
+      - 10090:80/tcp
+    environment:
+      - TZ=Asia/Shanghai
+    mem_limit: 209715200
+    links:
+      - cqgcu-enroll-manager:service02
+
+  cqgcu-enroll-manager:
+    image: 'cqgcu-enroll-manager'
+    restart: always
+    environment:
+      - SERVICE_ID=cqgcu-enroll-manager
+    command: uwsgi --processes=1 -M --gevent=100 --http-socket :80 -w devel:app
+    volumes:
+      - '/var/log/cqgcu-enroll-manager:/var/log/cqgcu-enroll-manager/'
+      - './share:/share'
+    mem_limit: 192m
