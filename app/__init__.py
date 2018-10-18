@@ -35,6 +35,12 @@ login_manager.login_view = 'admin.login'
 login_manager.login_message = None
 VERSION = '1.0.0'
 
+# jinja2 None to ''
+def finalize(arg):
+    if arg is None:
+        return ''
+    return arg
+
 def register_blueprints(app):
     #注册蓝图
     blueprints = [
@@ -56,6 +62,9 @@ def create_app(config_name):
     #开启调试模式
     app.debug = app.config.get('DEBUG')
 
+    # jinja2 None to ''
+    app.jinja_env.finalize = finalize
+    
     #配置log路径
     log_handler = FinalLogger(app).getLogger()
     app.logger.addHandler(log_handler)
