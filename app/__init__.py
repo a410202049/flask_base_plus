@@ -64,7 +64,7 @@ def create_app(config_name):
 
     # jinja2 None to ''
     app.jinja_env.finalize = finalize
-    
+
     #配置log路径
     log_handler = FinalLogger(app).getLogger()
     app.logger.addHandler(log_handler)
@@ -135,43 +135,6 @@ def create_app(config_name):
                 context.log.e('notify handle error: {0}'.format(ex.message))
                 _send_warning_email(context, ex)
                 return ex.message
-
-    # @app.errorhandler(AxBaseException)
-    # def exception_error_handler(e):
-    #     app.logger.warning('%s %s' % (e.error_msg, e))
-    #     resp = {}
-    #     base_resp = {}
-    #     resp['resp_code'] = e.error_code
-    #     resp['resp_msg'] = e.error_msg
-    #     resp['timestamp'] =  int(round(time.time() * 1000))
-    #     base_resp['resp'] = resp
-    #     return jsonify(resp=resp),200
-
-    # @app.template_filter("omit")
-    # def omit(data, length):
-    #     if len(data) > length:
-    #         return data[:length-3] + '...'
-    #     return data
-    #
-    # @app.template_filter("friendly_time")
-    # def friendly_time(date):
-    #     delta = datetime.datetime.now() - date
-    #     if delta.days >= 365:
-    #         return u'%d年前' % (delta.days / 365)
-    #     elif delta.days >= 30:
-    #         return u'%d个月前' % (delta.days / 30)
-    #     elif delta.days > 0:
-    #         return u'%d天前' % delta.days
-    #     elif delta.seconds < 60:
-    #         return u"%d秒前" % delta.seconds
-    #     elif delta.seconds < 60 * 60:
-    #         return u"%d分钟前" % (delta.seconds / 60)
-    #     else:
-    #         return u"%d小时前" % (delta.seconds / 60 / 60)
-    #
-    # @app.template_filter("format_article_time")
-    # def format_article_time(date):
-    #     return date.strftime('%m月%d日 %Y')
 
     return app
 
