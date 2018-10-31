@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-
 from app.controller.home import CommonView
 
 
