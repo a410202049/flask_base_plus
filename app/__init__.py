@@ -43,7 +43,8 @@ def finalize(arg):
 def register_blueprints(app):
     # 注册蓝图
     blueprints = [
-        "app.controller.admin:admin"
+        "app.controller.admin:admin",
+        "app.controller.home:home"
     ]
     for bp_name in blueprints:
         bp = import_string(bp_name)
@@ -101,6 +102,10 @@ def create_app(config_name):
     from app import template_filter
     template_filter.init_app(app)
 
+    # 初始化路由
+    import routing
+    routing.init_routing(app)
+
     # 注册蓝图
     register_blueprints(app)
 
@@ -130,6 +135,8 @@ def create_app(config_name):
     #             context.log.e('notify handle error: {0}'.format(ex.message))
     #             _send_warning_email(context, ex)
     #             return ex.message
+
+
     return app
 
 
