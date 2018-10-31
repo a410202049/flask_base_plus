@@ -10,9 +10,9 @@ from app.helpers.common_helper import record_log
 from app import db
 from app.models.CommonModel import SystemCfg, BannerCfg
 from app.utils.restful_response import CommonResponse, ResultType
-from app.models.Models import MenuAuth,User,UsersGroup
+from app.models.Models import MenuAuth, User, UsersGroup
 from app.utils.auth import Auth
-from app.helpers.common_helper import tree,fragment
+from app.helpers.common_helper import tree, fragment
 
 
 # 后台首页
@@ -52,10 +52,10 @@ def get_menu_info():
     if menu_info_obj is None:
         return CommonResponse(ResultType.Failed, message=u"菜单不存在").to_json()
     menu_info = menu_info_obj.to_json()
-    return CommonResponse(ResultType.Success, message=u"获取成功",data=menu_info).to_json()
+    return CommonResponse(ResultType.Success, message=u"获取成功", data=menu_info).to_json()
 
 
-#添加菜单
+# 添加菜单
 @admin.route('/menu-add', methods=['GET', 'POST'])
 @login_required
 def menu_add():
@@ -75,7 +75,7 @@ def menu_add():
             menu.parent_id = form.parent_id.data
             db.session.merge(menu)
             db.session.commit()
-            record_log('add_menu', u'添加菜单',u'method:{method}'.format(method=form.method.data))
+            record_log('add_menu', u'添加菜单', u'method:{method}'.format(method=form.method.data))
             return CommonResponse(ResultType.Success, message=u"添加成功").to_json()
     except Exception, e:
         db.session.rollback()
@@ -83,7 +83,7 @@ def menu_add():
         return CommonResponse(ResultType.Failed, message=u"添加失败").to_json()
 
 
-#编辑菜单
+# 编辑菜单
 @admin.route('/menu-edit', methods=['GET', 'POST'])
 @login_required
 def menu_edit():
@@ -104,7 +104,7 @@ def menu_edit():
             menu.parent_id = form.parent_id.data
             db.session.merge(menu)
             db.session.commit()
-            record_log('edit_menu', u'编辑菜单',u'method:{method}'.format(method=form.method.data))
+            record_log('edit_menu', u'编辑菜单', u'method:{method}'.format(method=form.method.data))
             return CommonResponse(ResultType.Success, message=u"编辑成功").to_json()
     except Exception, e:
         db.session.rollback()
@@ -141,12 +141,10 @@ def user_manage():
     email = request.args.get('email', '')
     page = request.args.get('page', 1, type=int)
     user_obj = db.session.query(User).order_by(User.create_time.desc())
-    if username !='':
+    if username != '':
         user_obj = user_obj.filter(User.username == username)
-    if email !='':
+    if email != '':
         user_obj = user_obj.filter(User.email == email)
-
-
 
     paginate = user_obj.paginate(
         page, per_page=app.config['PAGE_SIZE'], error_out=True)
@@ -154,17 +152,18 @@ def user_manage():
 
     user_grops = db.session.query(UsersGroup).all()
     data = {
-        "email":email,
-        "username":username,
-        "users":users,
-        "pagination":paginate,
-        "fragment":fragment(),
-        "user_grops":user_grops
+        "email": email,
+        "username": username,
+        "users": users,
+        "pagination": paginate,
+        "fragment": fragment(),
+        "user_grops": user_grops
     }
 
     return render_template('admin/user_manage.html', data=data, title=title)
 
-#添加用户
+
+# 添加用户
 @admin.route('/user-add', methods=['GET', 'POST'])
 @login_required
 def user_add():
@@ -182,14 +181,15 @@ def user_add():
                 user.group_id = form.group_id.data
             db.session.add(user)
             db.session.commit()
-            record_log('add_user', u'添加用户',u'username:{username}'.format(username=form.username.data))
+            record_log('add_user', u'添加用户', u'username:{username}'.format(username=form.username.data))
             return CommonResponse(ResultType.Success, message=u"添加成功").to_json()
     except Exception, e:
         db.session.rollback()
         record_log('add_user', u'添加用户失败')
         return CommonResponse(ResultType.Failed, message=u"添加失败").to_json()
 
-#获取菜单信息
+
+# 获取菜单信息
 @admin.route('/get-user-info', methods=['GET', 'POST'])
 @login_required
 def get_user_info():
@@ -200,9 +200,10 @@ def get_user_info():
     if user_info_obj is None:
         return CommonResponse(ResultType.Failed, message=u"用户不存在").to_json()
     user_info = user_info_obj.to_json()
-    return CommonResponse(ResultType.Success, message=u"获取成功",data=user_info).to_json()
+    return CommonResponse(ResultType.Success, message=u"获取成功", data=user_info).to_json()
 
-#编辑用户
+
+# 编辑用户
 @admin.route('/user-edit', methods=['GET', 'POST'])
 @login_required
 def user_edit():
@@ -225,12 +226,13 @@ def user_edit():
 
             db.session.merge(user)
             db.session.commit()
-            record_log('edit_user', u'编辑用户',u'username:{username}'.format(username=form.username.data))
+            record_log('edit_user', u'编辑用户', u'username:{username}'.format(username=form.username.data))
             return CommonResponse(ResultType.Success, message=u"编辑成功").to_json()
     except Exception, e:
         db.session.rollback()
         record_log('edit_user', u'编辑用户失败')
         return CommonResponse(ResultType.Failed, message=u"编辑失败").to_json()
+
 
 # 删除用户
 @admin.route('/user-del', methods=['GET', 'POST'])
@@ -252,7 +254,7 @@ def user_del():
     return CommonResponse(ResultType.Success, message=u"删除成功").to_json()
 
 
-#用户组管理
+# 用户组管理
 @admin.route('/user-group-manage', methods=['GET', 'POST'])
 @login_required
 def user_group_manage():
@@ -262,34 +264,33 @@ def user_group_manage():
 
     page = request.args.get('page', 1, type=int)
     user_group_obj = db.session.query(UsersGroup).order_by(UsersGroup.create_time.desc())
-    if name !='':
+    if name != '':
         user_group_obj = user_group_obj.filter(UsersGroup.name == name)
-    if status !='' and status !='ALL':
+    if status != '' and status != 'ALL':
         user_group_obj = user_group_obj.filter(UsersGroup.status == status)
-
 
     paginate = user_group_obj.paginate(
         page, per_page=app.config['PAGE_SIZE'], error_out=True)
     groups = paginate.items
 
     data = {
-        "name":name,
-        "status":status,
-        "pagination":paginate,
-        "fragment":fragment(),
-        "groups":groups
+        "name": name,
+        "status": status,
+        "pagination": paginate,
+        "fragment": fragment(),
+        "groups": groups
     }
 
     return render_template('admin/group_manage.html', data=data, title=title)
 
 
-#添加分组
+# 添加分组
 @admin.route('/group-add', methods=['GET', 'POST'])
 @login_required
 def group_add():
     try:
         name = request.form.get('name')
-        status = request.form.get('status',default=1)
+        status = request.form.get('status', default=1)
         if not name:
             return CommonResponse(ResultType.Failed, message=u"分组名称不能为空").to_json()
         user_group_obj = db.session.query(UsersGroup).filter(UsersGroup.name == name).scalar()
@@ -301,12 +302,13 @@ def group_add():
         db.session.merge(group)
         db.session.commit()
 
-        record_log('add_group', u'添加分组',u'name:{name}'.format(name=name))
+        record_log('add_group', u'添加分组', u'name:{name}'.format(name=name))
         return CommonResponse(ResultType.Success, message=u"添加成功").to_json()
     except Exception, e:
         db.session.rollback()
         record_log('add_user', u'添加用户失败')
         return CommonResponse(ResultType.Failed, message=u"添加失败").to_json()
+
 
 # 编辑分组
 @admin.route('/group-edit', methods=['GET', 'POST'])
@@ -318,7 +320,7 @@ def group_edit():
         status = request.form.get('status', default=1)
         if not name:
             return CommonResponse(ResultType.Failed, message=u"分组名称不能为空").to_json()
-        user_group_obj = db.session.query(UsersGroup).filter(UsersGroup.id != id,UsersGroup.name == name).scalar()
+        user_group_obj = db.session.query(UsersGroup).filter(UsersGroup.id != id, UsersGroup.name == name).scalar()
         if user_group_obj:
             return CommonResponse(ResultType.Failed, message=u"分组名称不能重复").to_json()
         group = UsersGroup()
@@ -336,8 +338,7 @@ def group_edit():
     return CommonResponse(ResultType.Failed, message=u"编辑失败").to_json()
 
 
-
-#获取分组权限
+# 获取分组权限
 @admin.route('/get-rule-list', methods=['GET', 'POST'])
 @login_required
 def get_rule_list():
@@ -356,7 +357,7 @@ def get_rule_list():
                     break
                 menus[index].active = False
     else:
-        for index,menu in enumerate(menus):
+        for index, menu in enumerate(menus):
             menus[index].active = False
     data = []
     for menu in menus:
@@ -366,10 +367,11 @@ def get_rule_list():
         da['name'] = menu.name
         da['parent_id'] = menu.parent_id
         data.append(da)
-    ret = tree(data,pidName='parent_id')
-    return CommonResponse(ResultType.Success, message=u"获取成功",data=ret).to_json()
+    ret = tree(data, pidName='parent_id')
+    return CommonResponse(ResultType.Success, message=u"获取成功", data=ret).to_json()
 
-#获取分组信息
+
+# 获取分组信息
 @admin.route('/get-group-info', methods=['GET', 'POST'])
 @login_required
 def get_group_info():
@@ -380,7 +382,8 @@ def get_group_info():
     if group_info_obj is None:
         return CommonResponse(ResultType.Failed, message=u"分组不存在").to_json()
     group_info = group_info_obj.to_json()
-    return CommonResponse(ResultType.Success, message=u"获取成功",data=group_info).to_json()
+    return CommonResponse(ResultType.Success, message=u"获取成功", data=group_info).to_json()
+
 
 # 删除分组
 @admin.route('/group-del', methods=['GET', 'POST'])
@@ -399,7 +402,8 @@ def group_del():
     db.session.commit()
     return CommonResponse(ResultType.Success, message=u"删除成功").to_json()
 
-#授权
+
+# 授权
 @admin.route('/group_grant', methods=['GET', 'POST'])
 @login_required
 def group_grant():
@@ -419,7 +423,7 @@ def group_grant():
     return CommonResponse(ResultType.Failed, message=u"授权失败").to_json()
 
 
-#系统基本配置
+# 系统基本配置
 @admin.route('/system_base_cfg', methods=['GET', 'POST'])
 @login_required
 def system_base_cfg():
@@ -445,6 +449,7 @@ def system_base_cfg():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"系统配置页面异常").to_json()
 
+
 @admin.route('/save_base_cfg', methods=['GET', 'POST'])
 @login_required
 def save_base_cfg():
@@ -454,7 +459,7 @@ def save_base_cfg():
         site_description = request.form.get('site_description')
         third_code = request.form.get('third_code')
         sys_cfg = SystemCfg()
-        sys_cfg.set_sys_value('site_name',site_name)
+        sys_cfg.set_sys_value('site_name', site_name)
         sys_cfg.set_sys_value('site_keywords', site_keywords)
         sys_cfg.set_sys_value('site_description', site_description)
         sys_cfg.set_sys_value('third_code', third_code)
@@ -473,12 +478,10 @@ def save_email_cfg():
         email = request.form.get('email')
         email_password = request.form.get('email_password')
         sys_cfg = SystemCfg()
-        sys_cfg.set_sys_value('email_smtp',email_smtp)
+        sys_cfg.set_sys_value('email_smtp', email_smtp)
         sys_cfg.set_sys_value('email', email)
         sys_cfg.set_sys_value('email_password', email_password)
         return CommonResponse(ResultType.Success, message=u"保存成功").to_json()
     except Exception, e:
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"保存Email基本配置异常").to_json()
-
-

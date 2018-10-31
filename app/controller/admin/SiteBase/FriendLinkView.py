@@ -2,12 +2,11 @@
 # -*- encoding: utf-8 -*-
 
 from app.controller.admin import admin
-from flask_login import current_user,login_required
+from flask_login import current_user, login_required
 from flask import render_template, request, current_app as app, json
 from app.helpers.common_helper import fragment, is_number
 from app import db, CommonResponse, ResultType
 from app.models.FriendLinkModel import FriendLink
-
 
 
 @admin.route('/friend-link', methods=['GET', 'POST'])
@@ -17,7 +16,7 @@ def friend_link():
         title = u'链接管理'
 
         page = request.args.get('page', 1, type=int)
-        link_name = request.args.get('link_name','')
+        link_name = request.args.get('link_name', '')
         rows = db.session.query(
             FriendLink
         ).order_by(FriendLink.create_time.desc())
@@ -31,14 +30,15 @@ def friend_link():
         items = paginate.items
 
         data = {
-            "link_name":link_name,
+            "link_name": link_name,
             "links": items,
             "pagination": paginate,
             "fragment": fragment()
         }
-        return render_template('admin/friend_link.html',title=title,data=data)
+        return render_template('admin/friend_link.html', title=title, data=data)
     except Exception, e:
         app.logger.info(e)
+
 
 @admin.route('/add_link_method', methods=['POST'])
 @login_required
@@ -70,6 +70,7 @@ def add_link_method():
     except Exception, e:
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"添加链接出现异常").to_json()
+
 
 @admin.route('/edit_link_method', methods=['POST'])
 @login_required
@@ -105,6 +106,7 @@ def edit_link_method():
         app.logger.info(e)
     return CommonResponse(ResultType.Failed, message=u"编辑链接出现异常").to_json()
 
+
 # 删除分类
 @admin.route('/del_link_method', methods=['GET', 'POST'])
 @login_required
@@ -123,7 +125,7 @@ def del_link_method():
     except Exception, e:
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"删除失败").to_json()
-#
+
 
 @admin.route('/get_link_info', methods=['POST'])
 @login_required

@@ -13,23 +13,23 @@ from app.models.ArticleModel import ArticleKeywords
 from sqlalchemy import or_
 
 
-
-
 @admin.route('/upload', methods=['POST'])
 def upload():
-    upload= Upload()
+    upload = Upload()
     pic_path = upload.upload_file()
-    return CommonResponse(ResultType.Success, message=u"获取成功", data={"img_path":url_for('static',
-            filename=pic_path,_external=True)}).to_json()
+    return CommonResponse(ResultType.Success, message=u"获取成功", data={"img_path": url_for('static',
+                                                                                         filename=pic_path,
+                                                                                         _external=True)}).to_json()
+
 
 @admin.route('/get_keyword_list', methods=['GET', 'POST'])
 @login_required
 def get_keyword_list():
     try:
-        keyword = request.form.get('keyword','')
+        keyword = request.form.get('keyword', '')
         pageNumber = request.form.get('pageNumber', 1, type=int)
-        pageSize = request.form.get('pageSize',app.config['PAGE_SIZE'],type=int)
-        searchKey = request.form.get('searchKey',None)
+        pageSize = request.form.get('pageSize', app.config['PAGE_SIZE'], type=int)
+        searchKey = request.form.get('searchKey', None)
         searchValue = request.form.get('searchValue', None)
 
         rows = db.session.query(ArticleKeywords)
@@ -65,6 +65,7 @@ def get_keyword_list():
     except Exception, e:
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"获取关键词列表出现错误").to_json()
+
 
 @admin.route('/get_keyword_info', methods=['GET', 'POST'])
 @login_required
@@ -102,7 +103,7 @@ def add_banner():
         db.session.add(banner)
         db.session.commit()
 
-        return CommonResponse(ResultType.Success, message=u"添加成功",).to_json()
+        return CommonResponse(ResultType.Success, message=u"添加成功", ).to_json()
     except Exception, e:
         app.logger.info(e)
     return CommonResponse(ResultType.Failed, message=u"编辑出现错误").to_json()
@@ -133,6 +134,7 @@ def edit_banner():
         app.logger.info(e)
     return CommonResponse(ResultType.Failed, message=u"编辑出现错误").to_json()
 
+
 @admin.route('/del_banner', methods=['GET', 'POST'])
 @login_required
 def del_banner():
@@ -143,10 +145,11 @@ def del_banner():
             BannerCfg.id == banner_id
         ).delete()
         db.session.commit()
-        return CommonResponse(ResultType.Success, message=u"删除成功",).to_json()
+        return CommonResponse(ResultType.Success, message=u"删除成功", ).to_json()
     except Exception, e:
         app.logger.info(e)
     return CommonResponse(ResultType.Failed, message=u"删除Banner出现错误").to_json()
+
 
 @admin.route('/get_banner_info', methods=['GET', 'POST'])
 @login_required
@@ -157,8 +160,7 @@ def get_banner_info():
         data = db.session.query(BannerCfg).filter(
             BannerCfg.id == banner_id
         ).first()
-        return CommonResponse(ResultType.Success, message=u"获取成功",data=data.to_json()).to_json()
+        return CommonResponse(ResultType.Success, message=u"获取成功", data=data.to_json()).to_json()
     except Exception, e:
         app.logger.info(e)
     return CommonResponse(ResultType.Failed, message=u"获取成功Banner出现错误").to_json()
-

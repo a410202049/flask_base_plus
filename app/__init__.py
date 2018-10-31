@@ -1,10 +1,10 @@
 # coding: utf-8
-from flask import Flask,current_app
+from flask import Flask, current_app
 from flask_sqlalchemy import SQLAlchemy, get_debug_queries, BaseQuery
 from flask_login import LoginManager
 
-from axf_utils.context.context import Context
-from axf_utils.exception import AxBaseException
+# from axf_utils.context.context import Context
+# from axf_utils.exception import AxBaseException
 from app.utils.restful_response import CommonResponse, ResultType
 from config import config
 import datetime
@@ -15,12 +15,13 @@ import time
 from app.utils.log import FinalLogger
 
 import sys
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
 # mail = Mail()
 
-#设置db.session.query 可以使用分页类
+# 设置db.session.query 可以使用分页类
 session_options = {}
 session_options['query_cls'] = BaseQuery
 session_options['autocommit'] = False
@@ -35,14 +36,16 @@ login_manager.login_view = 'admin.login'
 login_manager.login_message = None
 VERSION = '1.0.0'
 
+
 # jinja2 None to ''
 def finalize(arg):
     if arg is None:
         return ''
     return arg
 
+
 def register_blueprints(app):
-    #注册蓝图
+    # 注册蓝图
     blueprints = [
         "app.controller.admin:admin"
     ]
@@ -59,26 +62,26 @@ def create_app(config_name):
     db.init_app(app)
     login_manager.init_app(app)
     app.config['MAX_CONTENT_LENGTH'] = app.config.get('MAX_CONTENT_LENGTH')
-    #开启调试模式
+    # 开启调试模式
     app.debug = app.config.get('DEBUG')
 
     # jinja2 None to ''
     app.jinja_env.finalize = finalize
 
-    #配置log路径
+    # 配置log路径
     log_handler = FinalLogger(app).getLogger()
     app.logger.addHandler(log_handler)
 
-    import axf_utils
-    axf_utils.init_app(app)
+    # import axf_utils
+    # axf_utils.init_app(app)
 
     from app import template_filter
     template_filter.init_app(app)
 
-    #注册蓝图
+    # 注册蓝图
     register_blueprints(app)
 
-    #添加当前时间戳 全局变量
+    # 添加当前时间戳 全局变量
     app.add_template_global(int(time.time()), 'current_time')
 
     @app.after_request
@@ -96,54 +99,22 @@ def create_app(config_name):
         # current_app.logger.warning(exception)
         db.session.remove()
 
-
-    @app.errorhandler(403)
-    def forbidden(e):
-        if request.accept_mimetypes.accept_json and \
-                not request.accept_mimetypes.accept_html:
-            response = jsonify({'error': 'forbidden'})
-            response.status_code = 403
-            return response
-        return render_template('403.html'), 403
-
-
-    @app.errorhandler(404)
-    def page_not_found(e):
-        if request.accept_mimetypes.accept_json and \
-                not request.accept_mimetypes.accept_html:
-            response = jsonify({'error': 'not found'})
-            response.status_code = 404
-            return response
-        return render_template('404.html'), 404
-
-
-    @app.errorhandler(500)
-    def internal_server_error(e):
-        if request.accept_mimetypes.accept_json and \
-                not request.accept_mimetypes.accept_html:
-            response = jsonify({'error': 'internal server error'})
-            response.status_code = 500
-            return response
-        return render_template('500.html'), 500
-
-
-    @app.errorhandler(Exception)
-    def handle_exception(ex):
-        if current_app.config['CONFIG_NAME'] != 'local':
-            if not isinstance(ex, AxBaseException):
-                context = Context()
-                context.log.e('notify handle error: {0}'.format(ex.message))
-                _send_warning_email(context, ex)
-                return ex.message
-
+    # @app.errorhandler(Exception)
+    # def handle_exception(ex):
+    #     if current_app.config['CONFIG_NAME'] != 'local':
+    #         if not isinstance(ex, AxBaseException):
+    #             context = Context()
+    #             context.log.e('notify handle error: {0}'.format(ex.message))
+    #             _send_warning_email(context, ex)
+    #             return ex.message
     return app
 
 
 def _send_warning_email(ctx, exception):
-    from flask import current_app
-    import traceback
-
-    title = u'flask-base-plus-%s环境-告警通知' % current_app.config['CONFIG_NAME']
-    body = u'发现未处理flask-base-plus服务异常: \n{status}\n{message}'.format(status=ctx.get_service_status(), message=traceback.format_exc())
-    from axf_utils import email_util
-    email_util.send_warning_email(ctx, title, body, ['xxxxx@qq.com'])
+    # from flask import current_app
+    # import traceback
+    # title = u'flask-base-plus-%s环境-告警通知' % current_app.config['CONFIG_NAME']
+    # body = u'发现未处理flask-base-plus服务异常: \n{status}\n{message}'.format(status=ctx.get_service_status(), message=traceback.format_exc())
+    # from axf_utils import email_util
+    # email_util.send_warning_email(ctx, title, body, ['xxxxx@qq.com'])
+    pass

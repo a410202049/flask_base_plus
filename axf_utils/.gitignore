@@ -1,8 +1,0 @@
-/context/*.pyc
-/db_sessions/*.pyc
-/session/*.pyc
-/structed_log/*.pyc
-/*.pyc
-/ax_comm_protocol/*.pyc
-*.pyc
-*.log

@@ -3,7 +3,10 @@
 import base64
 
 from sqlalchemy.ext.declarative import declarative_base
+
 Base = declarative_base()
+
+
 def copy(self):
     data_obj = self.__class__()
 
@@ -50,5 +53,3 @@ setattr(Base, 'to_dict', to_dict)
 setattr(Base, 'utf8_encode', utf8_encode)
 setattr(Base, 'utf8_decode', utf8_decode)
 __author__ = 'seaman'
-
-

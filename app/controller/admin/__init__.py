@@ -8,8 +8,9 @@ from app.utils.auth import Auth
 from flask_login import current_user
 from app.utils.restful_response import CommonResponse, ResultType
 
-admin = Blueprint('admin', __name__,url_prefix='/admin')
-from app.controller.admin.SiteBase import AuthView,BaseView,CommonView,ArticleView,FriendLinkView
+admin = Blueprint('admin', __name__, url_prefix='/admin')
+from app.controller.admin.SiteBase import AuthView, BaseView, CommonView, ArticleView, FriendLinkView
+
 
 @admin.before_request
 def before_request():
@@ -19,7 +20,9 @@ def before_request():
         'GET': request.args,
         'POST': request.form
     }[request.method]
-    app.logger.info('[request_url]{},[method]: {},[headers]:{},[args]:{}'.format(request.url,method,header,args.to_dict()))
+    app.logger.info(
+        '[request_url]{},[method]: {},[headers]:{},[args]:{}'.format(request.url, method, header, args.to_dict()))
+
 
 # @admin.errorhandler(Exception)
 # def code_exception_found(e):
@@ -30,6 +33,7 @@ def before_request():
 @admin.context_processor
 def menus():
     user = current_user
+
     def check_auth(path):
         if user.is_active == True:
             if user.group_id == 1:
@@ -51,15 +55,16 @@ def menus():
                 return False
             return True
 
-    #获取登陆后菜单
+    # 获取登陆后菜单
     if user.is_active == True:
-        #设置admin蓝图下全局变量
-        auth= Auth(user)
-        menus= auth.auth_menus()
-        return {'menus': menus,'check_auth':check_auth}
-    return {'check_auth':check_auth}
+        # 设置admin蓝图下全局变量
+        auth = Auth(user)
+        menus = auth.auth_menus()
+        return {'menus': menus, 'check_auth': check_auth}
+    return {'check_auth': check_auth}
 
-#权限验证
+
+# 权限验证
 @admin.before_request
 def before_request():
     user = current_user
@@ -71,7 +76,7 @@ def before_request():
         all_menus = db.session.query(MenuAuth).order_by(MenuAuth.sort.asc()).all()
         rules_str = user.group.rules
         rules = []
-        if rules_str :
+        if rules_str:
             rules = json.loads(rules_str)
         all_menu_list = []
         auth_menu_list = []

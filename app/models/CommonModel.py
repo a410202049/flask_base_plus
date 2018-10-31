@@ -5,6 +5,7 @@ from sqlalchemy import DATETIME
 from sqlalchemy import Column
 from app.models.BaseModel import Base
 
+
 # 系统配置表
 class SystemCfg(Base):
     __tablename__ = 't_system_cfg'

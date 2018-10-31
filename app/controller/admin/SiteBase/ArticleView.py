@@ -10,7 +10,8 @@ from app.models.Models import User
 from app.utils.XssFilter import XssHtml
 from app.utils.auth import Auth
 from app.utils.restful_response import CommonResponse, ResultType
-from flask_login import current_user,login_required
+from flask_login import current_user, login_required
+
 
 @admin.route('/article_list', methods=['GET', 'POST'])
 @login_required
@@ -37,7 +38,6 @@ def article_list():
 
         category_obj = ArticleCategory.get_category(category_id)
 
-
         rows = db.session.query(
             Article.id,
             ArticleCategory.name.label('category_name'),
@@ -49,18 +49,18 @@ def article_list():
             User.username,
             User.nickname
         ).outerjoin(
-            User,Article.author_id == User.id
+            User, Article.author_id == User.id
         ).join(
-            ArticleCategory,Article.cid == ArticleCategory.id
+            ArticleCategory, Article.cid == ArticleCategory.id
         ).order_by(Article.create_time.desc())
         if article_title:
             rows = rows.filter(
-                    Article.title.like(u'%{0}%'.format(article_title)),
+                Article.title.like(u'%{0}%'.format(article_title)),
             )
 
         if category_id:
             rows = rows.filter(
-                    Article.cid == category_id
+                Article.cid == category_id
             )
 
         paginate = rows.paginate(
@@ -69,17 +69,18 @@ def article_list():
         articles = paginate.items
 
         data = {
-            "title":article_title,
+            "title": article_title,
             "category_id": category_id,
             "category_name": category_obj.name if category_obj else '',
-            "articles":articles,
+            "articles": articles,
             "pagination": paginate,
             "fragment": fragment()
         }
 
-        return render_template('admin/article_list.html', data=data, title=title,categorys_json=categorys_json)
+        return render_template('admin/article_list.html', data=data, title=title, categorys_json=categorys_json)
     except Exception, e:
         app.logger.info(e)
+
 
 @admin.route('/article_add', methods=['GET', 'POST'])
 @login_required
@@ -102,9 +103,11 @@ def article_add():
             categorys.append(cate)
         categorys_json = json.dumps(categorys)
 
-        return render_template('admin/article_add.html',data=categorys_data,title=title,categorys_json=categorys_json)
+        return render_template('admin/article_add.html', data=categorys_data, title=title,
+                               categorys_json=categorys_json)
     except Exception, e:
         app.logger.info(e)
+
 
 @admin.route('/article_add_method', methods=['POST'])
 @login_required
@@ -146,7 +149,6 @@ def article_add_method():
         article.source = source
         article.source_site = source_site
 
-
         db.session.add(article)
         db.session.commit()
         article_id = article.id
@@ -162,6 +164,7 @@ def article_add_method():
     except Exception, e:
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"添加文章出现异常").to_json()
+
 
 @admin.route('/article_edit', methods=['GET', 'POST'])
 @login_required
@@ -191,9 +194,11 @@ def article_edit():
         categorys_json = json.dumps(categorys)
 
         return render_template('admin/article_edit.html', data=categorys_data, title=title,
-                               categorys_json=categorys_json,keywords=keywords,article=article,category_data=category_data)
+                               categorys_json=categorys_json, keywords=keywords, article=article,
+                               category_data=category_data)
     except Exception, e:
         app.logger.info(e)
+
 
 @admin.route('/article_edit_method', methods=['POST'])
 @login_required
@@ -254,6 +259,7 @@ def article_edit_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"编辑文章出现异常").to_json()
 
+
 @admin.route('/article_del_method', methods=['POST'])
 @login_required
 def article_del_method():
@@ -269,6 +275,7 @@ def article_del_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"删除文章出现异常").to_json()
 
+
 @admin.route('/article_category_list', methods=['GET'])
 @login_required
 def article_category_list():
@@ -279,11 +286,12 @@ def article_category_list():
         categorys = auth.tree_list(categorys_data)
 
         data = {
-            "categorys_list":categorys,
+            "categorys_list": categorys,
         }
         return render_template('admin/article_category_list.html', data=data, title=title)
     except Exception, e:
         app.logger.info(e)
+
 
 @admin.route('/add_category_method', methods=['POST'])
 @login_required
@@ -294,7 +302,6 @@ def add_category_method():
         description = form.get('description')
         sort = form.get('sort')
         pid = form.get('pid')
-
 
         if not category_name:
             return CommonResponse(ResultType.Failed, message=u"分类名称不能为空").to_json()
@@ -312,6 +319,7 @@ def add_category_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"添加分类出现异常").to_json()
 
+
 @admin.route('/get_category_info', methods=['POST'])
 @login_required
 def get_category_info():
@@ -321,7 +329,7 @@ def get_category_info():
 
         if not category_id:
             return CommonResponse(ResultType.Failed, message=u"category_id为空").to_json()
-        category_info_obj = ArticleCategory.query.filter(ArticleCategory.id == category_id).scalar()
+        category_info_obj = db.session.query(ArticleCategory).filter(ArticleCategory.id == category_id).scalar()
         if category_info_obj is None:
             return CommonResponse(ResultType.Failed, message=u"分类不存在").to_json()
         category_info = category_info_obj.to_json()
@@ -330,7 +338,8 @@ def get_category_info():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"添加分类出现异常").to_json()
 
-#编辑菜单
+
+# 编辑菜单
 @admin.route('/edit_category_method', methods=['GET', 'POST'])
 @login_required
 def edit_category_method():
@@ -359,6 +368,7 @@ def edit_category_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"编辑失败").to_json()
 
+
 # 删除分类
 @admin.route('/del_category_method', methods=['GET', 'POST'])
 @login_required
@@ -367,10 +377,11 @@ def del_category_method():
         category_id = request.form.get('category_id')
         if not category_id:
             return CommonResponse(ResultType.Failed, message=u"category_id不能为空").to_json()
-        category_info_obj = ArticleCategory.query.filter(ArticleCategory.id == category_id).scalar()
+        category_info_obj = db.session.query(ArticleCategory).filter(ArticleCategory.id == category_id).scalar()
+
         if category_info_obj is None:
             return CommonResponse(ResultType.Failed, message=u"分类不存在").to_json()
-        other_info_obj = ArticleCategory.query.filter(ArticleCategory.parent_id == category_id).all()
+        other_info_obj = db.session.query(ArticleCategory).filter(ArticleCategory.parent_id == category_id).all()
 
         articles = db.session.query(
             Article
@@ -402,7 +413,7 @@ def article_keywords_list():
         keywords = paginate.items
 
         data = {
-            "keywords":keywords,
+            "keywords": keywords,
             "pagination": paginate,
             "fragment": fragment()
         }
@@ -431,6 +442,7 @@ def add_article_keywords_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"添加失败").to_json()
 
+
 @admin.route('/edit_article_keywords_method', methods=['POST'])
 @login_required
 def edit_article_keywords_method():
@@ -440,11 +452,12 @@ def edit_article_keywords_method():
         if not keyword:
             return CommonResponse(ResultType.Failed, message=u"关键词不能为空").to_json()
 
-        keyword_data = db.session.query(ArticleKeywords).filter(ArticleKeywords.name == keyword,ArticleKeywords.id != keyword_id).first()
+        keyword_data = db.session.query(ArticleKeywords).filter(ArticleKeywords.name == keyword,
+                                                                ArticleKeywords.id != keyword_id).first()
         if keyword_data:
             return CommonResponse(ResultType.Failed, message=u"关键词已存在").to_json()
 
-        article_keyword = db.session.query(ArticleKeywords).filter(ArticleKeywords.id == keyword_id ).first()
+        article_keyword = db.session.query(ArticleKeywords).filter(ArticleKeywords.id == keyword_id).first()
         article_keyword.name = keyword
         db.session.merge(article_keyword)
         db.session.commit()
@@ -453,6 +466,7 @@ def edit_article_keywords_method():
         app.logger.info(e)
         return CommonResponse(ResultType.Failed, message=u"编辑失败").to_json()
 
+
 @admin.route('/del_article_keywords_method', methods=['POST'])
 @login_required
 def del_article_keywords_method():
@@ -460,10 +474,10 @@ def del_article_keywords_method():
         keyword_id = request.form.get('keyword_id')
         if not keyword_id:
             return CommonResponse(ResultType.Failed, message=u"关键词id不能为空").to_json()
-        db.session.query(ArticleKeywords).filter(ArticleKeywords.id == keyword_id ).delete()
+        db.session.query(ArticleKeywords).filter(ArticleKeywords.id == keyword_id).delete()
         db.session.query(
             ArticleKeywordRelation
-        ).filter(ArticleKeywordRelation.keyword_id==keyword_id).delete()
+        ).filter(ArticleKeywordRelation.keyword_id == keyword_id).delete()
         db.session.commit()
         return CommonResponse(ResultType.Success, message=u"删除成功").to_json()
     except Exception, e:

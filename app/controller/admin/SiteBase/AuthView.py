@@ -20,7 +20,7 @@ def login():
             user = db.session.query(User).filter(User.username == form.username.data).first()
             if user is not None and user.verify_password(form.password.data):
                 if not user.status:
-                    #禁止被禁用的用户登陆
+                    # 禁止被禁用的用户登陆
                     flash(u'用户被禁用，请联系管理员')
                 else:
                     login_user(user, form.remember_me.data)
@@ -45,7 +45,3 @@ def logout():
         return redirect(url_for('admin.login'))
     else:
         return redirect(current_app.config.get('OPERATOR_LOGIN'))
-
-
-
-
