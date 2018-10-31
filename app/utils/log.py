@@ -3,32 +3,32 @@ from colorlog import ColoredFormatter
 import logging
 import logging.handlers
 
-class FinalLogger(object):
 
+class FinalLogger(object):
     logger = None
 
-    levels = {"n" : logging.NOTSET,
-              "d" : logging.DEBUG,
-              "i" : logging.INFO,
-              "w" : logging.WARN,
-              "e" : logging.ERROR,
-              "c" : logging.CRITICAL}
+    levels = {"n": logging.NOTSET,
+              "d": logging.DEBUG,
+              "i": logging.INFO,
+              "w": logging.WARN,
+              "e": logging.ERROR,
+              "c": logging.CRITICAL}
 
     CONFIG = dict(
         LOG_LEVEL='d',
-        LOG_FILE = 'running.log',
-        LOG_FILE_MAX_SIZE = 10 * 1024 * 1024,
-        LOG_FILE_NUM_BACKUPS = 5,
+        LOG_FILE='running.log',
+        LOG_FILE_MAX_SIZE=10 * 1024 * 1024,
+        LOG_FILE_NUM_BACKUPS=5,
 
-        ADMINS_EMAIL = None,
-        MAIL_USERNAME = None,
-        MAIL_SERVER = None,
-        MAIL_PASSWORD = None,
-        MAIL_PORT = 25,
-        EMAIL_ERROR_SUBJECT = 'YourApplication Failed'
+        ADMINS_EMAIL=None,
+        MAIL_USERNAME=None,
+        MAIL_SERVER=None,
+        MAIL_PASSWORD=None,
+        MAIL_PORT=25,
+        EMAIL_ERROR_SUBJECT='YourApplication Failed'
     )
 
-    def __init__(self,app):
+    def __init__(self, app):
         if app:
             for k in self.CONFIG.keys():
                 if k in app.config:
@@ -43,9 +43,9 @@ class FinalLogger(object):
 
         #   把log信息输入到文件中
         log_file_handler = logging.handlers.RotatingFileHandler(
-            filename = FinalLogger.CONFIG['LOG_FILE'],
-            maxBytes = FinalLogger.CONFIG['LOG_FILE_MAX_SIZE'],
-            backupCount = FinalLogger.CONFIG['LOG_FILE_NUM_BACKUPS']
+            filename=FinalLogger.CONFIG['LOG_FILE'],
+            maxBytes=FinalLogger.CONFIG['LOG_FILE_MAX_SIZE'],
+            backupCount=FinalLogger.CONFIG['LOG_FILE_NUM_BACKUPS']
         )
 
         #   在控制台输出log信息
@@ -68,7 +68,8 @@ class FinalLogger(object):
         mail_handler.setLevel(logging.ERROR)
 
         # 输出的格式
-        formater = logging.Formatter("[%(asctime)s]-[%(filename)s]-[%(funcName)s]-[line %(lineno)d]-[%(levelname)s]-%(message)s")
+        formater = logging.Formatter(
+            "[%(asctime)s]-[%(filename)s]-[%(funcName)s]-[line %(lineno)d]-[%(levelname)s]-%(message)s")
 
         # 流文件带颜色输出
         color_formatter = ColoredFormatter(
@@ -99,6 +100,7 @@ class FinalLogger(object):
         #   返回一个logger对象
         return FinalLogger.logger
 
+
 if __name__ == "__main__":
     logger = FinalLogger.getLogger()
     # debug:debug级输出
@@ -111,8 +113,3 @@ if __name__ == "__main__":
     logger.warn("this is a warn msg!")
     logger.error("this is a error msg!")
     logger.critical("this is a critical msg!")
-
-
-
-
-

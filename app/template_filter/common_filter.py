@@ -2,12 +2,15 @@
 
 from . import get_app
 import datetime
+
 app = get_app()
+
 
 def omit(data, length):
     if len(data) > length:
         return data[:length - 3] + '...'
     return data
+
 
 def friendly_time(date):
     delta = datetime.datetime.now() - date
@@ -28,6 +31,7 @@ def friendly_time(date):
 def format_article_time(date):
     return date.strftime('%m月%d日 %Y')
 
-app.add_template_filter(omit,'omit')
-app.add_template_filter(friendly_time,'friendly_time')
-app.add_template_filter(format_article_time,'format_article_time')
+
+app.add_template_filter(omit, 'omit')
+app.add_template_filter(friendly_time, 'friendly_time')
+app.add_template_filter(format_article_time, 'format_article_time')

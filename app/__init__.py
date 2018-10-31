@@ -3,12 +3,8 @@ from flask import Flask, current_app
 from flask_sqlalchemy import SQLAlchemy, get_debug_queries, BaseQuery
 from flask_login import LoginManager
 
-# from axf_utils.context.context import Context
-# from axf_utils.exception import AxBaseException
 from app.utils.restful_response import CommonResponse, ResultType
 from config import config
-import datetime
-from flask import render_template, request, jsonify
 from werkzeug.utils import import_string
 
 import time
@@ -53,6 +49,33 @@ def register_blueprints(app):
         bp = import_string(bp_name)
         app.register_blueprint(bp)
 
+
+class DBSessionForRead(object):
+
+    def __enter__(self):
+        self.session = db.create_scoped_session(options=session_options)
+        # self.session = db.session
+        return self.session
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        # db.session.expunge_all()
+        self.session.close()
+
+
+class DBSessionForWrite(object):
+
+    def __enter__(self):
+        self.session = db.create_scoped_session(options=session_options)
+        return self.session
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if exc_type:
+            self.session.rollback()
+        else:
+            self.session.commit()
+
+        # db.session.expunge_all()
+        self.session.close()
 
 def create_app(config_name):
     app = Flask(__name__)
