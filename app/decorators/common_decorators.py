@@ -13,7 +13,7 @@ def home_login_required(func):
             if request.is_xhr:
                 return CommonResponse(ResultType.Failed, message=u"请登录后，再继续操作").to_json()
             else:
-                return redirect(url_for('home.login'))
+                return redirect(url_for('home.index'))
         return func(*args, **kwargs)
 
     return wrapper
