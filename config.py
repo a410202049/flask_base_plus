@@ -4,6 +4,8 @@ __author__ = u'kerry'
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
+
+
 class Config:
     DEBUG = False
     CONFIG_NAME = 'default'
@@ -11,7 +13,7 @@ class Config:
     STRIPE_API_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
     SSL_DISABLE = False
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
-    SQLALCHEMY_TRACK_MODIFICATIONS = False 
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_RECORD_QUERIES = True
     FLASKY_SLOW_DB_QUERY_TIME = 0.5
     WTF_CSRF_ENABLED = False
@@ -26,7 +28,7 @@ class Config:
     VERSION = '1.0.1'
     IS_LOCALHOST = True
 
-    #邮件配置
+    # 邮件配置
     MAIL_SERVER = 'smtp.xxxx.com'
     MAIL_PORT = 465
     MAIL_USE_SSL = True
@@ -56,14 +58,11 @@ class LocalConfig(Config):
 class DevelopmentConfig(Config):
     CONFIG_NAME = 'devel'
     SQLALCHEMY_DATABASE_URI = "mysql://xxxxx:xxxx@xxxxxxxxxxxxxxxxxx/cqgcu_enroll?charset=utf8"
-    LOG_FILE = '/var/log/cqgcu-enroll-manager/flask_record.log'
-
 
 
 class ProductionConfig(Config):
     CONFIG_NAME = 'product'
     SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1/cqgcu?charset=utf8"
-    LOG_FILE = '/var/log/cqgcu-enroll-manager/flask_record.log'
 
 
 config = {
@@ -71,4 +70,3 @@ config = {
     'production': ProductionConfig,
     'local': LocalConfig,
 }
-
