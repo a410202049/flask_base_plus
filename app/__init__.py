@@ -3,20 +3,23 @@ from flask import Flask, current_app
 from flask_sqlalchemy import SQLAlchemy, get_debug_queries, BaseQuery
 from flask_login import LoginManager
 
+from app.exception.exception import ServerBaseException
+from app.utils.context.context import Context
 from app.utils.restful_response import CommonResponse, ResultType
 from config import config
 from werkzeug.utils import import_string
 
 import time
-from app.utils.log import FinalLogger
+from utils import context
+from utils.logger.log import init_logger_from_object
+from utils.logger import log as logging
 
 import sys
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-# mail = Mail()
-
+logger = logging.get_logger()
 # 设置db.session.query 可以使用分页类
 session_options = {}
 session_options['query_cls'] = BaseQuery
@@ -82,22 +85,34 @@ def create_app(config_name):
     app = Flask(__name__)
     app.config.from_object(config[config_name])
     config[config_name].init_app(app)
+
     # mail.init_app(app)
     db.init_app(app)
     login_manager.init_app(app)
     app.config['MAX_CONTENT_LENGTH'] = app.config.get('MAX_CONTENT_LENGTH')
+
+    init_logger_from_object(config[config_name])
+
     # 开启调试模式
     app.debug = app.config.get('DEBUG')
 
     # jinja2 None to ''
     app.jinja_env.finalize = finalize
 
-    # 配置log路径
-    log_handler = FinalLogger(app).getLogger()
-    app.logger.addHandler(log_handler)
+    # init utils
+    import utils
+    utils.init_app(app)
 
-    # import axf_utils
-    # axf_utils.init_app(app)
+    # context init
+    context.init_app(app)
+
+    # # init db
+    # from utils import db_session
+    # db_session.init_app(app)
+
+    # init redis
+    from utils import redis_cache
+    redis_cache.init_app(app)
 
     from app import template_filter
     template_filter.init_app(app)
@@ -122,29 +137,18 @@ def create_app(config_name):
                        query.context))
         return response
 
-    @app.teardown_appcontext
-    def shutdown_session(exception):
-        # current_app.logger.warning(exception)
-        db.session.remove()
-
-    # @app.errorhandler(Exception)
-    # def handle_exception(ex):
-    #     if current_app.config['CONFIG_NAME'] != 'local':
-    #         if not isinstance(ex, AxBaseException):
-    #             context = Context()
-    #             context.log.e('notify handle error: {0}'.format(ex.message))
-    #             _send_warning_email(context, ex)
-    #             return ex.message
-
+    @app.errorhandler(Exception)
+    def handle_exception(e):
+        if current_app.config['CONFIG_NAME'] != 'local':
+            if not isinstance(e, ServerBaseException):
+                logger.exception(u'service has exception: {0}'.format(e.message))
+                import traceback
+                from utils import email_util
+                title = u'Server-%s-%s' % (current_app.config['CONFIG_NAME'], email_util.get_exception_message(e))
+                body = u'Server异常: \n{message}'.format(message=traceback.format_exc())
+                email_util.send_warning_email(title, body, ['gaoyuan@axinfu.com'])
+        return e.message
 
     return app
 
 
-def _send_warning_email(ctx, exception):
-    # from flask import current_app
-    # import traceback
-    # title = u'flask-base-plus-%s环境-告警通知' % current_app.config['CONFIG_NAME']
-    # body = u'发现未处理flask-base-plus服务异常: \n{status}\n{message}'.format(status=ctx.get_service_status(), message=traceback.format_exc())
-    # from axf_utils import email_util
-    # email_util.send_warning_email(ctx, title, body, ['xxxxx@qq.com'])
-    pass

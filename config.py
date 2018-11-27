@@ -5,6 +5,7 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 class Config:
+    DEBUG = False
     CONFIG_NAME = 'default'
     SECRET_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
     STRIPE_API_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
@@ -16,11 +17,13 @@ class Config:
     WTF_CSRF_ENABLED = False
     PAGE_SIZE = 15
     SQLALCHEMY_ECHO = False
-    # SERVER_NAME = "dev.kerrygao.com"
-    # MAX_CONTENT_LENGTH = 160 * 1024 * 1024
-    # ALLOWED_EXTENSIONS = ['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif']
+
+    NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
+                        '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'
+
+    LOG_PATH = '/var/log/micro-service/src.log'
+
     VERSION = '1.0.1'
-    DEBUG = True
     IS_LOCALHOST = True
 
     #邮件配置
@@ -31,15 +34,15 @@ class Config:
     MAIL_USERNAME = 'xxx@xxx.com'
     MAIL_PASSWORD = '11111111'
 
+    # REDIS CONFIG
+    REDIS_CACHES = {
+        'host': '127.0.0.1',
+        'port': '6379',
+        'db': 0,
+        'password': ''
+    }
 
-    #flask日志模块
-    LOG_FILE = 'flask_record.log'
-    LOG_LEVEL = 'd'
-    LOG_FILE_MAX_SIZE = 10 * 1024 * 1024
-    LOG_FILE_NUM_BACKUPS = 10
-
-
-    #所有SQLALCHEMY配置项可参考手册http://www.pythondoc.com/flask-sqlalchemy/config.html#id2
+    # 所有SQLALCHEMY配置项可参考手册http://www.pythondoc.com/flask-sqlalchemy/config.html#id2
     @staticmethod
     def init_app(app):
         pass
