@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50639
 File Encoding         : 65001
 
-Date: 2018-07-23 15:18:08
+Date: 2018-11-28 18:28:09
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -49,7 +49,7 @@ CREATE TABLE `t_article` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of t_article
@@ -77,13 +77,14 @@ CREATE TABLE `t_article_category` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of t_article_category
 -- ----------------------------
 INSERT INTO `t_article_category` VALUES ('19', '0', '比特资讯', null, '比特资讯', '1', '2018-03-19 18:30:34', '2018-03-19 18:30:34');
 INSERT INTO `t_article_category` VALUES ('22', '0', '热门新闻', null, '热门新闻', '1', '2018-05-16 23:42:40', '2018-05-20 22:26:55');
+INSERT INTO `t_article_category` VALUES ('23', '22', '测试1', null, '测试1', '1', '2018-10-31 15:24:45', '2018-10-31 15:24:45');
 
 -- ----------------------------
 -- Table structure for t_article_comment
@@ -178,7 +179,7 @@ CREATE TABLE `t_friend_link` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of t_friend_link
@@ -201,7 +202,7 @@ CREATE TABLE `t_menu_auth` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=1982 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=218 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of t_menu_auth
@@ -244,7 +245,7 @@ CREATE TABLE `t_operation_log` (
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of t_operation_log
@@ -283,6 +284,8 @@ INSERT INTO `t_operation_log` VALUES ('31', 'admin', 'del_menu', '删除菜单',
 INSERT INTO `t_operation_log` VALUES ('32', 'admin', 'del_menu', '删除菜单', '127.0.0.1', '{\'menu_id\': [u\'220\']}', 'name:分配规则', '2018-07-23 11:24:22', '2018-07-23 11:24:22');
 INSERT INTO `t_operation_log` VALUES ('33', 'admin', 'del_menu', '删除菜单', '127.0.0.1', '{\'menu_id\': [u\'219\']}', 'name:寝室床位', '2018-07-23 11:24:25', '2018-07-23 11:24:25');
 INSERT INTO `t_operation_log` VALUES ('34', 'admin', 'del_menu', '删除菜单', '127.0.0.1', '{\'menu_id\': [u\'218\']}', 'name:学生管理', '2018-07-23 11:24:29', '2018-07-23 11:24:29');
+INSERT INTO `t_operation_log` VALUES ('35', 'admin', 'logout', '用户登出', '127.0.0.1', '{}', 'current_user:admin', '2018-11-05 16:39:48', '2018-11-05 16:39:48');
+INSERT INTO `t_operation_log` VALUES ('36', 'admin', 'login', '用户登陆', '127.0.0.1', '{\'username\': [u\'admin\'], \'password\': [u\'admin\'], \'submit\': [u\'\\u767b\\u9646\'], \'next\': [u\'/admin/\']}', 'current_user:admin', '2018-11-05 17:24:07', '2018-11-05 17:24:07');
 
 -- ----------------------------
 -- Table structure for t_student
@@ -393,8 +396,8 @@ CREATE TABLE `t_user` (
 -- ----------------------------
 -- Records of t_user
 -- ----------------------------
-INSERT INTO `t_user` VALUES ('1', 'admin', '1', 'pbkdf2:sha256:50000$BktW7bxC$5eb77497fbbcc6406cc5cfe6d8e1ce18d221c13fecef84e54bce7946b7060f7c', '2017-11-09 14:30:07', '2017-11-09 14:30:09', '1', null, 'admin', '1', '2017-11-09 14:30:16', '2017-11-09 14:30:19');
-INSERT INTO `t_user` VALUES ('2', 'gaoyuan', '1509699669@qq.com', 'pbkdf2:sha256:50000$2xyUYadq$993fa59d45aa7685bd6fa4de92f58232e3369fb0f2c81056c87570f89a486301', '2017-11-09 06:37:37', '2017-11-09 06:37:37', '1', '0', 'gaoyuan', '6', '2017-11-09 14:37:37', '2018-06-29 09:53:14');
+INSERT INTO `t_user` VALUES ('1', 'admin', '1222@qq.com', 'pbkdf2:sha256:50000$BktW7bxC$5eb77497fbbcc6406cc5cfe6d8e1ce18d221c13fecef84e54bce7946b7060f7c', '2017-11-09 14:30:07', '2017-11-09 14:30:09', '1', null, 'admin', '1', '2017-11-09 14:30:16', '2017-11-09 14:30:19');
+INSERT INTO `t_user` VALUES ('2', 'gaoyuan', '1509699669@qq.com', 'pbkdf2:sha256:50000$BktW7bxC$5eb77497fbbcc6406cc5cfe6d8e1ce18d221c13fecef84e54bce7946b7060f7c', '2017-11-09 06:37:37', '2017-11-09 06:37:37', '1', '0', 'gaoyuan', '6', '2017-11-09 14:37:37', '2018-06-29 09:53:14');
 INSERT INTO `t_user` VALUES ('8', 'test', 'test@qq.com', 'pbkdf2:sha256:50000$3BnJtQ1O$c34bfef72d1d517fad0b990d38766ddfb2e6fd4d1558e6d8f3ddfdff1ee4b4ad', '2018-03-14 08:02:27', '2018-03-14 08:02:27', '1', '0', null, '2', '2018-03-14 16:02:27', '2018-03-14 16:02:27');
 INSERT INTO `t_user` VALUES ('9', 'jinjie', 'jinjie@qq.com', 'pbkdf2:sha256:50000$oZffaqD8$aedaba5d7844e4fc90fe64af98e3e899270d7ba008110a27012a4f9c978a5f73', '2018-03-14 13:55:25', '2018-03-14 13:55:25', '1', '0', 'jinjie', '2', '2018-03-14 21:55:25', '2018-05-05 22:30:31');
 
