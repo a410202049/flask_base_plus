@@ -23,7 +23,7 @@ class Config:
     NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
                         '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'
 
-    LOG_PATH = '/var/log/micro-service/src.log'
+    LOG_PATH = 'src.log'
 
     VERSION = '1.0.1'
     IS_LOCALHOST = True
@@ -52,7 +52,7 @@ class Config:
 
 class LocalConfig(Config):
     CONFIG_NAME = 'local'
-    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1/flask_base_plus?charset=utf8"
+    SQLALCHEMY_DATABASE_URI = "mysql://root:Kerrygao123@47.74.251.5/flask_base_plus?charset=utf8"
 
 
 class DevelopmentConfig(Config):

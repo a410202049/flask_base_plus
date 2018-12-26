@@ -3,15 +3,14 @@
 
 from flask.views import View
 from flask import Blueprint, render_template
-
+from app import logger
 home = Blueprint('home', __name__)
 
 
 class CommonView(View):
-
     def __init__(self, template_name):
         self.template_name = template_name
-
+        self.logger = logger
     def render_data(self):
         return None
 

@@ -4,13 +4,11 @@ from flask_sqlalchemy import SQLAlchemy, get_debug_queries, BaseQuery
 from flask_login import LoginManager
 
 from app.exception.exception import ServerBaseException
-from app.utils.context.context import Context
 from app.utils.restful_response import CommonResponse, ResultType
 from config import config
 from werkzeug.utils import import_string
 
 import time
-from utils import context
 from utils.logger.log import init_logger_from_object
 from utils.logger import log as logging
 
@@ -54,33 +52,6 @@ def register_blueprints(app):
         app.register_blueprint(bp)
 
 
-class DBSessionForRead(object):
-
-    def __enter__(self):
-        self.session = db.create_scoped_session(options=session_options)
-        # self.session = db.session
-        return self.session
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        # db.session.expunge_all()
-        self.session.close()
-
-
-class DBSessionForWrite(object):
-
-    def __enter__(self):
-        self.session = db.create_scoped_session(options=session_options)
-        return self.session
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        if exc_type:
-            self.session.rollback()
-        else:
-            self.session.commit()
-
-        # db.session.expunge_all()
-        self.session.close()
-
 def create_app(config_name):
     app = Flask(__name__)
     app.config.from_object(config[config_name])
@@ -103,16 +74,9 @@ def create_app(config_name):
     import utils
     utils.init_app(app)
 
-    # context init
-    context.init_app(app)
-
-    # # init db
-    # from utils import db_session
-    # db_session.init_app(app)
-
     # init redis
-    from utils import redis_cache
-    redis_cache.init_app(app)
+    # from utils import redis_cache
+    # redis_cache.init_app(app)
 
     from app import template_filter
     template_filter.init_app(app)

@@ -45,16 +45,6 @@ def get_logger(context=None, name=None):
 
     return logger
 
-
-def init_logger_from_file(config):
-    """
-    初始化日志, file
-    :param config:
-    :return:
-    """
-    logging.config.fileConfig(config)
-
-
 def init_logger_from_object(config):
     """
     初始化日志, dict
@@ -77,31 +67,9 @@ def init_logger_from_object(config):
                 'format': '[%(levelname)1.1s][tm:%(asctime)s][pt:%(process)d:%(thread)d]'
                           '[file:%(module)s:%(funcName)s:%(lineno)d][%(pathname)s] %(message)s',
                 'datefmt': "%Y-%m-%d %H:%M:%S",
-            },
-            'network_formatter': {
-                'format': network_formatter,
-                'datefmt': "%Y-%m-%d %H:%M:%S",
-            },
+            }
         },
         'handlers': {
-            # 'root_file': {
-            #     'level': level,
-            #     'class': 'library.logger.handlers.TimedRotatingFileHandler.TimedRotatingFileHandler',
-            #     'filename': log_path,
-            #     'when': 'midnight',
-            #     'interval': 1,  # day
-            #     'backupCount': 7,
-            #     'formatter': 'root_formatter',
-            # },
-            # 'network_file': {
-            #     'level': level,
-            #     'class': 'library.logger.handlers.TimedRotatingFileHandler.TimedRotatingFileHandler',
-            #     'filename': log_path,
-            #     'when': 'midnight',
-            #     'interval': 1,  # day
-            #     'backupCount': 7,
-            #     'formatter': 'network_formatter',
-            # },
             'root_file': {
                 'level': level,
                 'class': 'logging.handlers.RotatingFileHandler',
@@ -111,25 +79,12 @@ def init_logger_from_object(config):
                 'backupCount': 7,  # 备份份数
                 'encoding': 'utf8',  # 文件编码
             },
-            'network_file': {
-                'level': level,
-                'class': 'logging.handlers.RotatingFileHandler',
-                'filename': log_path,
-                'formatter': 'network_formatter',
-                'maxBytes': 1024 * 1024 * 10,  # 文件大小 5M
-                'backupCount': 7,  # 备份份数
-                'encoding': 'utf8',  # 文件编码
-            },
             'root_console': {
                 'level': level,
                 'class': 'logging.StreamHandler',
                 'formatter': 'root_formatter',
             },
-            'network_console': {
-                'level': level,
-                'class': 'logging.StreamHandler',
-                'formatter': 'network_formatter',
-            },
+
         },
         'loggers': {
             '': {
@@ -140,26 +95,10 @@ def init_logger_from_object(config):
                 'handlers': ['root_file', 'root_console'],
                 'level': config.DEBUG if config.DEBUG else 'INFO',
             },
-            # 'sqlalchemy': {
-            #     'handlers': ['root_file', 'root_console'],
-            #     'level': config.DEBUG if config.DEBUG else 'INFO',
-            # },
-            # 'sqlalchemy.engine': {
-            #     'handlers': ['root_file', 'root_console'],
-            #     'level': config.DEBUG if config.DEBUG else 'INFO',
-            # },
-            # 'sqlalchemy.dialects.postgresql': {
-            #     'handlers': ['root_file', 'root_console'],
-            #     'level': config.DEBUG if config.DEBUG else 'INFO',
-            # },
             'root': {
                 'handlers': ['root_file', 'root_console'],
                 'level': config.DEBUG if config.DEBUG else 'INFO',
-            },
-            'network': {
-                'handlers': ['network_file', 'network_console'],
-                'level': config.DEBUG if config.DEBUG else 'INFO',
-            },
+            }
         }
     }
 
