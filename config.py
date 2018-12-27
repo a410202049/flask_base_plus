@@ -20,9 +20,6 @@ class Config:
     PAGE_SIZE = 15
     SQLALCHEMY_ECHO = False
 
-    NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
-                        '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'
-
     LOG_PATH = 'src.log'
 
     VERSION = '1.0.1'

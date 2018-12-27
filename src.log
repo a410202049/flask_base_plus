@@ -1,0 +1,147 @@
+[I][tm:2018-12-26 22:14:25][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:14:33][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:33] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:33][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:33] "GET /favicon.ico HTTP/1.1" 404 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /admin HTTP/1.1" 301 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /admin/ HTTP/1.1" 302 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /admin/login?next=%2Fadmin%2F HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/plugins/morris/morris.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/bootstrap.min.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/core.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/components.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/icons.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/pages.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/responsive.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/css/style.min.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/modernizr.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/bootstrap.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/detect.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/fastclick.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.slimscroll.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.blockUI.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/wow.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.nicescroll.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/plugins/raphael/raphael-min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/plugins/jquery-knob/jquery.knob.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.core.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/jquery.app.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/metisMenu/jquery.metisMenu.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/js/contabs.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /static/admin/images/agsquare.png HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:42][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:42] "GET /admin/assets/images/favicon_1.ico HTTP/1.1" 404 -
+[I][tm:2018-12-26 22:14:47][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:47] "GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:52][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:52] "POST /admin/login?next=%2Fadmin%2F HTTP/1.1" 302 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /admin/ HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/datatables/jquery.dataTables.min.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/switchery/dist/switchery.min.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/css/layui.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/footable/css/footable.core.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/bootstrap-select/dist/css/bootstrap-select.min.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/css/common.css?1545833665 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/images/anp.png HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/images/users/avatar-1.jpg HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/js/bootstrap.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/js/waves.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/js/jquery.scrollTo.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/peity/jquery.peity.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/layui.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/datatables/dataTables.bootstrap.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/fonts/ionicons.ttf?v=1.5.0 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/fonts/Simple-Line-Icons.ttf?-i3a2kk HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/fonts/themify.woff?-fvbane HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/fonts/Material-Design-Iconic-Font.woff?v=1.0.1 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/switchery/dist/switchery.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/js/common.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/footable/js/footable.all.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/bootstrap-select/dist/js/bootstrap-select.min.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/pages/jquery.footable.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/lay/modules/layer.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/css/modules/layer/default/layer.css?v=3.0.3 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/lay/modules/laydate.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/admin/plugins/layui/css/modules/laydate/default/laydate.css?v=5.0.5 HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:53][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:56][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:56] "GET /admin/friend-link HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:56][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:56] "GET /static/admin/css/jquery.treegrid.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:56][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:56] "GET /static/admin/js/jquery.treegrid.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:56][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:56] "GET /static/admin/js/jquery.treegrid.bootstrap3.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:56][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:56] "GET /static/admin/plugins/layui/lay/modules/upload.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:59][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:59] "GET /admin/article_list HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:59][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:59] "GET /static/admin/css/treeSelect.css HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:14:59][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:14:59] "GET /static/admin/js/treeSelect.js HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:15:14][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:14] "GET /admin/ HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:15:19][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:19] "GET /admin/logout HTTP/1.1" 302 -
+[I][tm:2018-12-26 22:15:19][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:19] "GET /admin/login HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:15:25][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:25] "POST /admin/login HTTP/1.1" 302 -
+[I][tm:2018-12-26 22:15:25][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:25] "GET /admin/index HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:15:30][pt:15512:5488][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:15:30] "GET /admin/index HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:23:44][pt:5440:13444][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:28:01][pt:1976:9140][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:28:06][pt:12464:6976][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:28:12][pt:12464:6976][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:28:12][pt:12464:6976][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:28:16][pt:12464:6976][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:28:16] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:30:39][pt:14656:13520][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:31:27][pt:5476:6208][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:31:44][pt:5476:6208][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:31:44][pt:5476:6208][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:32:02][pt:5476:6208][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:32:02] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:32:24][pt:388:7916][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:32:30][pt:388:7916][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:32:30][pt:388:7916][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:32:42][pt:388:7916][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:32:42] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:32:46][pt:388:7916][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:32:46][pt:388:7916][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:32:50][pt:388:7916][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:32:50] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:33:08][pt:14276:5808][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:33:22][pt:14276:5808][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:33:22][pt:14276:5808][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:34:34][pt:13964:13520][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:35:02][pt:13964:13520][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:35:02][pt:13964:13520][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:35:15][pt:13636:15760][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:35:23][pt:13636:15760][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:35:23][pt:13636:15760][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:39:53][pt:15980:7416][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:40:22][pt:15980:7416][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:40:22][pt:15980:7416][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:40:31][pt:15980:7416][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:40:31] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:40:34][pt:15980:7416][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:40:34][pt:15980:7416][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:40:35][pt:15980:7416][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:40:35] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:42:25][pt:16176:17340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:42:36][pt:16176:17340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:42:36][pt:16176:17340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:42:41][pt:16176:17340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:42:41] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 22:44:42][pt:16132:8148][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:45:07][pt:4728:16776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:45:15][pt:4728:16776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:45:15][pt:4728:16776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:53:22][pt:17128:16936][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 22:53:26][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:53:26][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 22:53:27][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 22:53:27][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 22:53:33][pt:17128:16936][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 22:53:33] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 23:00:49][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:00:49][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:00:50][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:00:50][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:00:51][pt:17128:16936][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 23:00:51] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 23:01:12][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:01:12][pt:17128:16936][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:01:12][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:01:12][pt:17128:16936][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:01:13][pt:17128:16936][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 23:01:13] "GET / HTTP/1.1" 200 -
+[I][tm:2018-12-26 23:02:18][pt:16648:6264][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 23:15:01][pt:4932:16108][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[I][tm:2018-12-26 23:15:06][pt:4932:16108][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:15:06][pt:4932:16108][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
+[I][tm:2018-12-26 23:15:06][pt:4932:16108][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:15:06][pt:4932:16108][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
+[I][tm:2018-12-26 23:15:09][pt:4932:16108][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [26/Dec/2018 23:15:09] "GET / HTTP/1.1" 200 -

@@ -13,8 +13,7 @@ class HomeBase(CommonView):
     def dispatch_request(self):
         context = {"school": {"name": "北京大学"}}
         context.update(self.render_data())
-        self.logger.info("sssssssssssssss")
-        self.logger.info("bbbbbbbbbbbbbb")
+        self.logger.info('xxxxxxxxxx')
         return self.render_template(context)
 
 
