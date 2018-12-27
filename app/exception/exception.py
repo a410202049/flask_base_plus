@@ -3,9 +3,6 @@
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
-from ..utils.logger import log as logging
-
-
 SUCCESS = 'RES0000'
 ERROR = 'RES0001'
 INVALID_REQUEST_VALUE = 'RES0002'
@@ -13,7 +10,6 @@ SIGNATURE_ERROR = 'RES0003'
 
 
 SYSTEM_ERROR = 'RES9999'
-logger = logging.get_logger()
 
 
 class ServerBaseException(Exception):

@@ -9,15 +9,14 @@ from config import config
 from werkzeug.utils import import_string
 
 import time
-from utils.logger.log import init_logger_from_object
-from utils.logger import log as logging
+from utils.log import FinalLogger
 
 import sys
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
+logger = FinalLogger.get_logger()
 
-logger = logging.get_logger()
 # 设置db.session.query 可以使用分页类
 session_options = {}
 session_options['query_cls'] = BaseQuery
@@ -61,8 +60,6 @@ def create_app(config_name):
     db.init_app(app)
     login_manager.init_app(app)
     app.config['MAX_CONTENT_LENGTH'] = app.config.get('MAX_CONTENT_LENGTH')
-
-    init_logger_from_object(config[config_name])
 
     # 开启调试模式
     app.debug = app.config.get('DEBUG')

@@ -11,6 +11,7 @@ class CommonView(View):
     def __init__(self, template_name):
         self.template_name = template_name
         self.logger = logger
+
     def render_data(self):
         return None
 

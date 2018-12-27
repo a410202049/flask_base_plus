@@ -18,14 +18,7 @@ class FinalLogger(object):
         LOG_LEVEL='d',
         LOG_FILE='running.log',
         LOG_FILE_MAX_SIZE=10 * 1024 * 1024,
-        LOG_FILE_NUM_BACKUPS=5,
-
-        ADMINS_EMAIL=None,
-        MAIL_USERNAME=None,
-        MAIL_SERVER=None,
-        MAIL_PASSWORD=None,
-        MAIL_PORT=25,
-        EMAIL_ERROR_SUBJECT='YourApplication Failed'
+        LOG_FILE_NUM_BACKUPS=5
     )
 
     def __init__(self, app):
@@ -35,7 +28,7 @@ class FinalLogger(object):
                     self.CONFIG[k] = app.config[k]
 
     @staticmethod
-    def getLogger():
+    def get_logger():
         if FinalLogger.logger is not None:
             return FinalLogger.logger
 
@@ -51,25 +44,10 @@ class FinalLogger(object):
         #   在控制台输出log信息
         log_console_handler = logging.StreamHandler()
 
-        #   定义邮件handler
-        mail_handler = logging.handlers.SMTPHandler(
-            (
-                FinalLogger.CONFIG['MAIL_SERVER'],
-                FinalLogger.CONFIG['MAIL_PORT']
-            ),
-            FinalLogger.CONFIG['MAIL_USERNAME'],
-            FinalLogger.CONFIG['ADMINS_EMAIL'],
-            FinalLogger.CONFIG['EMAIL_ERROR_SUBJECT'],
-            (
-                FinalLogger.CONFIG['MAIL_USERNAME'],
-                FinalLogger.CONFIG['MAIL_PASSWORD']
-            )
-        )
-        mail_handler.setLevel(logging.ERROR)
-
         # 输出的格式
         formater = logging.Formatter(
-            "[%(asctime)s]-[%(filename)s]-[%(funcName)s]-[line %(lineno)d]-[%(levelname)s]-%(message)s")
+            '[%(levelname)s][tm:%(asctime)s][pt:%(process)d:%(thread)d]'
+            '[file:%(module)s:%(funcName)s:%(lineno)d][%(pathname)s] %(message)s')
 
         # 流文件带颜色输出
         color_formatter = ColoredFormatter(
@@ -86,23 +64,24 @@ class FinalLogger(object):
         )
 
         log_file_handler.setFormatter(formater)
-        mail_handler.setFormatter(formater)
+
         log_console_handler.setFormatter(color_formatter)
 
         #   添加handler到logger中
         FinalLogger.logger.addHandler(log_file_handler)
         FinalLogger.logger.addHandler(log_console_handler)
-        FinalLogger.logger.addHandler(mail_handler)
 
         #   设置log的级别，默认为debug
         FinalLogger.logger.setLevel(FinalLogger.levels.get(FinalLogger.CONFIG['LOG_LEVEL']))
 
+        # log_file_handler.close()
+        # log_console_handler.close()
         #   返回一个logger对象
         return FinalLogger.logger
 
 
 if __name__ == "__main__":
-    logger = FinalLogger.getLogger()
+    logger = FinalLogger.get_logger()
     # debug:debug级输出
     # info：info级输出，重要信息
     # warning：warning级输出，与warn相同，警告信息
