@@ -49,7 +49,7 @@ class Config:
 
 class LocalConfig(Config):
     CONFIG_NAME = 'local'
-    SQLALCHEMY_DATABASE_URI = "mysql://root:Kerrygao123@47.74.251.5/flask_base_plus?charset=utf8"
+    SQLALCHEMY_DATABASE_URI = "xxxxxx"
 
 
 class DevelopmentConfig(Config):
