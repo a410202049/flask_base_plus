@@ -47,9 +47,7 @@
                 "FLASK_APP": "local.py"
             },
             "args": [
-                "run",
-                "--no-debugger",
-                "--no-reload"
+                "run"
             ],
             "jinja": true
         },

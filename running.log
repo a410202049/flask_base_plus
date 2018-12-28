@@ -1,166 +1,560 @@
-[INFO][tm:2018-12-27 20:40:13,808][pt:12948:1780][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 20:40:25,786][pt:12948:1780][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 20:40:26,864][pt:12948:1780][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 20:41:02,420][pt:12948:1780][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 20:41:02] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 20:41:02,558][pt:12948:1780][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 20:41:02] "GET /favicon.ico HTTP/1.1" 404 -
-[INFO][tm:2018-12-27 21:12:02,760][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:12:28,746][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:12:28,746][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:12:28,855][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:28] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:12:28,878][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:12:28,878][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:12:28,881][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:28] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:12:29,052][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:29] "GET /static/home/css/common.css HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:12:29,058][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:29] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:12:29,062][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:29] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:12:29,150][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:12:29,150][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:12:29,154][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:12:29] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:02,808][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:02,808][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:02,812][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:02] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:04,759][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:04,759][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:04,769][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:04] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:05,384][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:05,385][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:05,390][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:05] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:05,601][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:05,601][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:05,605][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:05] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:14,214][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:14,214][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:14,223][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:14] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:15,341][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:15,342][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:15,346][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:15] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:25,667][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:25,668][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:25,674][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:25] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:26,308][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:26,309][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:26,313][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:26] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:26,513][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:26,513][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:26,517][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:26] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:26,680][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:26,680][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:26,684][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:26] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:26,868][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:26,868][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:26,875][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:26] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:27,015][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:27,015][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:27,017][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:27,232][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:27,233][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:27,237][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:27,457][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:27,457][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:27,461][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:27,641][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:27,641][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:27,645][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:27,825][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:27,825][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:27,831][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:34,681][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:34,683][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:34,687][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:34] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:35,395][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:35,397][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:35,401][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:35] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:35,749][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:35,750][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:35,753][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:35] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:35,928][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:35,928][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:35,934][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:35] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:36,061][pt:3856:11620][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:36,061][pt:3856:11620][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:36,065][pt:3856:11620][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:51,571][pt:7900:1192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:13:55,473][pt:7900:1192][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:55,473][pt:7900:1192][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:55,543][pt:7900:1192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:55] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:13:59,463][pt:7900:1192][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] sssssssssssssss
-[INFO][tm:2018-12-27 21:13:59,464][pt:7900:1192][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] bbbbbbbbbbbbbb
-[INFO][tm:2018-12-27 21:13:59,470][pt:7900:1192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:13:59] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:14:51,459][pt:12528:13116][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:15:12,434][pt:12528:13116][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:15:12] "GET /static/favicon.ico HTTP/1.1" 304 -
-[INFO][tm:2018-12-27 21:16:35,693][pt:7684:7392][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:16:38,497][pt:7684:7392][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:16:38] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:22,868][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:23:27,137][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:27] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:35,476][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:35] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:35,677][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:35] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,111][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,174][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,295][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,355][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,469][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,528][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,653][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,710][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,861][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:23:36,917][pt:13176:10248][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:16,493][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:24:25,404][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:25] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:25,408][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:25] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:25,589][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:25] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:38,204][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:38] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:38,213][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:38] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:38,342][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:38] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:38,721][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:38] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:38,821][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:38] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,209][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,299][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,398][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,466][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,569][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,628][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,704][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,776][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,871][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:39,928][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:39] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:40,042][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:40] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:40,098][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:40] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:40,177][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:40] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:24:40,243][pt:11268:9076][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:24:40] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:25:01,012][pt:7260:8200][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:25:02,950][pt:7260:8200][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:25:02] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:25:03,148][pt:7260:8200][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:25:03] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:40:53,937][pt:12080:12172][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:40:58,378][pt:12080:12172][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:40:58] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:40:58,631][pt:12080:12172][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:40:58] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:41:32,951][pt:12080:12172][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:41:32] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:41:33,069][pt:12080:12172][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:41:33] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:41:41,693][pt:12468:12696][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:41:46,996][pt:12468:12696][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:41:47,072][pt:12468:12696][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:41:47] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:41:47,299][pt:12468:12696][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:41:47] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:43:33,084][pt:3068:3148][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:43:55,309][pt:9876:8060][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:43:58,161][pt:9876:8060][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:43:58,236][pt:9876:8060][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:43:58] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:43:58,461][pt:9876:8060][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:43:58] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:35,884][pt:7272:4180][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:46:51,361][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[INFO][tm:2018-12-27 21:46:51,622][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:51,691][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:51] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:51,921][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:51] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:52,700][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:52,703][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:52] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:52,763][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:52] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,299][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:53,302][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,359][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,515][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:53,516][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,576][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,690][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:53,693][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,756][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET /static/favicon.ico HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,884][pt:5368:6196][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
-[INFO][tm:2018-12-27 21:46:53,888][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET / HTTP/1.1" 200 -
-[INFO][tm:2018-12-27 21:46:53,953][pt:5368:6196][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [27/Dec/2018 21:46:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:12:44,506][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:12:50,121][pt:7900:2904][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[INFO][tm:2018-12-28 20:12:50,173][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:12:50] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:12:50,381][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:12:50] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:30,160][pt:7900:2904][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[INFO][tm:2018-12-28 20:13:30,161][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:30] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:30,164][pt:7900:2904][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[INFO][tm:2018-12-28 20:13:30,165][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:30] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:30,266][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:30] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:32,528][pt:7900:2904][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[INFO][tm:2018-12-28 20:13:32,529][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:32] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:32,588][pt:7900:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:32] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:41,209][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:13:44,674][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:13:44,674][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:13:44,724][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:44,926][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:44] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:46,200][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:13:46,200][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:13:46,201][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:46] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:13:46,259][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:13:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:13,010][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:13,012][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:14:13,015][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:13] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:13,019][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:13,019][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:14:13,023][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:13] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:13,134][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:13] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:14,345][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:14,345][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:14:14,348][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:14] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:14,424][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:14] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:19,150][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:19,151][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:14:19,154][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:19] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:19,246][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:19] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:28,505][pt:8980:9952][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:28,505][pt:8980:9952][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ssssssssss
+[INFO][tm:2018-12-28 20:14:28,509][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:28] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:28,624][pt:8980:9952][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:28] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:37,578][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:14:47,905][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:14:47,905][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:14:47,951][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:47] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:14:48,151][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:14:48] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:00,188][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:00,188][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:00,190][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:00] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:00,311][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:00] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:26,328][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:26,328][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:26,329][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:26] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:26,426][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:26] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,296][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:27,296][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:27,296][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,354][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,552][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:27,552][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:27,552][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,608][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,776][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:27,776][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:27,778][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:27,841][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:27] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:48,000][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:48,000][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:48,000][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:48,002][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:48,002][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:48,003][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:48,095][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:48] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:49,576][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:49,576][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:49,578][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:49] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:49,634][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:49] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:51,023][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:51,023][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:51,025][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:51] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:51,081][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:51] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:51,664][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:51,664][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:51,664][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:51] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:51,717][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:51] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:52,456][pt:8004:5776][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:16:52,456][pt:8004:5776][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ada
+[INFO][tm:2018-12-28 20:16:52,457][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:52] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:16:52,510][pt:8004:5776][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:16:52] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:17:41,236][pt:12668:6728][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 20:17:42,753][pt:11428:11000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 20:17:42,762][pt:11428:11000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 20:17:42,767][pt:11428:3388][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:17:47,107][pt:11428:3388][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:17:47,107][pt:11428:3388][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] ddddddd
+[INFO][tm:2018-12-28 20:17:47,158][pt:11428:3388][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:17:47] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:17:47,362][pt:11428:3388][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:17:47] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:18:00,660][pt:11428:11000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\app\\controller\\home\\IndexView.py', reloading
+[INFO][tm:2018-12-28 20:18:00,694][pt:12668:6728][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 20:18:02,269][pt:1360:2572][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 20:18:02,279][pt:1360:2572][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 20:18:02,285][pt:1360:12492][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:18:06,707][pt:1360:12492][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:18:06,707][pt:1360:12492][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] 1111111
+[INFO][tm:2018-12-28 20:18:06,759][pt:1360:12492][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:18:06] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:18:06,966][pt:1360:12492][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:18:06] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:31,525][pt:1360:2572][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\app\\controller\\home\\IndexView.py', reloading
+[INFO][tm:2018-12-28 20:19:31,562][pt:12668:6728][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 20:19:33,118][pt:7032:6924][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 20:19:33,128][pt:7032:6924][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 20:19:33,134][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:19:37,328][pt:7032:272][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:19:37,328][pt:7032:272][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:19:37,391][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:37,599][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:38,562][pt:7032:272][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:19:38,562][pt:7032:272][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:19:38,563][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:38] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:38,624][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:38,842][pt:7032:272][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:19:38,842][pt:7032:272][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:19:38,844][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:38] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:38,901][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:39,522][pt:7032:272][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:19:39,522][pt:7032:272][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:19:39,523][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:39] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:39,576][pt:7032:272][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:39] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:51,332][pt:8260:5352][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 20:19:52,888][pt:9876:8912][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 20:19:52,898][pt:9876:8912][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 20:19:52,904][pt:9876:8408][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:19:52,973][pt:9876:8408][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:19:52,973][pt:9876:8408][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:19:53,040][pt:9876:8408][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:53] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:19:53,351][pt:9876:8408][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:19:53] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:20:02,250][pt:9876:8408][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:20:02,250][pt:9876:8408][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:20:02,252][pt:9876:8408][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:20:02] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:20:02,352][pt:9876:8408][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:20:02] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:20:08,237][pt:1932:372][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 20:20:09,782][pt:3964:8176][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 20:20:09,790][pt:3964:8176][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 20:20:09,798][pt:3964:7524][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 20:20:14,332][pt:3964:7524][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 20:20:14,332][pt:3964:7524][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 20:20:14,394][pt:3964:7524][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:20:14] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 20:20:14,632][pt:3964:7524][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 20:20:14] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:06:41,713][pt:3964:7524][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:06:41,713][pt:3964:7524][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:06:41,716][pt:3964:7524][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:06:41] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:06:41,813][pt:3964:7524][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:06:41] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:06:52,112][pt:15744:15740][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:06:53,729][pt:15936:15960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:06:53,740][pt:15936:15960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:06:53,746][pt:15936:16012][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:06:55,269][pt:15936:16012][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:06:55,269][pt:15936:16012][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:06:55,344][pt:15936:16012][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:06:55] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:06:55,573][pt:15936:16012][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:06:55] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:08:23,604][pt:15936:16012][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:08:23,604][pt:15936:16012][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:08:23,608][pt:15936:16012][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:08:23] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:08:23,729][pt:15936:16012][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:08:23] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:08:38,385][pt:4424:7000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:08:39,990][pt:16256:13756][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:08:40,000][pt:16256:13756][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:08:40,006][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:08:44,299][pt:16256:7872][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:08:44,299][pt:16256:7872][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:08:44,351][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:08:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:08:44,352][pt:16256:7872][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:08:44,354][pt:16256:7872][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:08:44,355][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:08:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:08:44,559][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:08:44] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:32,325][pt:16256:7872][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:20:32,325][pt:16256:7872][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:20:32,328][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:32] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:32,341][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:32] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:32,344][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:32] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:32,348][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:32] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:32,431][pt:16256:7872][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:32] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:43,529][pt:6788:16292][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:20:45,052][pt:14232:11728][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:20:45,062][pt:14232:11728][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:20:45,069][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:20:48,756][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:20:48,757][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:20:48,809][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:48,951][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:48] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:48,957][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:48] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:48,960][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:48] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:20:49,000][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:20:49] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:56,492][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:22:56,493][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:22:56,494][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:56] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:56,507][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:56] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:56,513][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:56] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:56,516][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:56] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:56,598][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:56] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,267][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:22:57,269][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:22:57,270][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,283][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,289][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,292][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,332][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,451][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:22:57,451][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:22:57,453][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,467][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,471][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,476][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,513][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,619][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:22:57,619][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:22:57,621][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,634][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,638][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,641][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,674][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,788][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:22:57,788][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:22:57,789][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,805][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,809][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,813][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:22:57,852][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:22:57] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:33,046][pt:11724:2904][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:23:34,615][pt:9892:2252][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:23:34,628][pt:9892:2252][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:23:34,634][pt:9892:8104][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:23:36,608][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:36,609][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:36,611][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:36] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:36,732][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:36] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,448][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:37,450][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:37,451][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,540][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,615][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:37,615][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:37,618][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,688][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,780][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:37,780][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:37,782][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,838][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,900][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:37,901][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:37,901][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:37,967][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:37] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:38,055][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:38,055][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:38,059][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:38] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:38,134][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:38] "GET /static/favicon.ico HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:51,490][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:51,490][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:51,493][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:51] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:23:52,141][pt:14232:16340][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:23:52,141][pt:14232:16340][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:23:52,142][pt:14232:16340][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:23:52] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:24:06,701][pt:16372:15604][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:24:08,267][pt:15428:14388][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:24:08,278][pt:15428:14388][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:24:08,283][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:24:11,895][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:24:11,895][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:24:11,950][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:24:11] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:24:11,953][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:24:11,953][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:24:11,956][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:24:11] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:24:14,509][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:24:14,509][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:24:14,512][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:24:14] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:25:44,174][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:25:44,176][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:25:44,181][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:25:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:25:44,842][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:25:44,842][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:25:44,845][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:25:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:25:45,311][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:25:45,312][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:25:45,316][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:25:45] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:25:46,556][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:25:46,556][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:25:46,559][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:25:46] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:25:47,427][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:25:47,427][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:25:47,430][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:25:47] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:26:51,424][pt:15428:14424][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:26:51,426][pt:15428:14424][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:26:51,427][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:26:51] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:26:51,552][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:26:51] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:26:51,556][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:26:51] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:26:51,561][pt:15428:14424][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:26:51] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:26:59,963][pt:6864:12708][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:27:01,559][pt:5484:11612][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:27:01,569][pt:5484:11612][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:27:01,575][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:27:03,382][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:27:03,382][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:27:03,436][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:27:03,571][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:27:03,575][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:27:03,578][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:27:03,605][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:27:03,644][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:27:03] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,849][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:29:04,849][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:29:04,851][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,871][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,877][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,881][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,956][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:04,999][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:04] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,838][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:29:05,838][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:29:05,839][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,855][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,861][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,865][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,931][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:05,976][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:05] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,128][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:29:06,130][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:29:06,131][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,147][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,151][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,154][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,224][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,269][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,355][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:29:06,355][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:29:06,357][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,371][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,378][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,381][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,448][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:29:06,496][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:29:06] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:35,887][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:35,888][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:35,888][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:35] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:35,907][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:35] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:35,911][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:35] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:35,914][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:35] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:35,989][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:35] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:36,032][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:36] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:36,957][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:36,959][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:36,960][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:36] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:36,976][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:36] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:36,982][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:36] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:36,986][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:36] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,063][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,109][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,236][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:37,236][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:37,237][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,255][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,259][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,263][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,335][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,378][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,592][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:37,592][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:37,595][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,619][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,628][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,638][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,703][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,749][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,799][pt:5484:2000][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:37,799][pt:5484:2000][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:37,802][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,819][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,823][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,828][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,895][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:37,940][pt:5484:2000][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:37] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:52,690][pt:12424:15120][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:30:54,221][pt:15420:16360][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:30:54,232][pt:15420:16360][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:30:54,239][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:30:54,299][pt:15420:7304][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:54,299][pt:15420:7304][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:54,371][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:54] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:30:57,585][pt:15420:7304][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:30:57,585][pt:15420:7304][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:30:57,588][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:30:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,128][pt:15420:7304][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:34:35,128][pt:15420:7304][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:34:35,131][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,260][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,263][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,267][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,282][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:35,319][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:35] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,183][pt:15420:7304][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:34:36,183][pt:15420:7304][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:34:36,184][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,201][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,206][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,210][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,282][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:36,328][pt:15420:7304][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:36] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:41,424][pt:16296:4496][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:34:43,006][pt:12316:3700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:34:43,016][pt:12316:3700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:34:43,026][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:34:43,736][pt:12316:11560][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:34:43,736][pt:12316:11560][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:34:43,789][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:43,914][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:43,917][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:43,921][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:43,934][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:34:43,976][pt:12316:11560][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:34:43] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:23,687][pt:15496:9592][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:37:24,673][pt:9852:5540][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:37:24,680][pt:9852:5540][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:37:24,696][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:37:48,624][pt:9852:15896][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:37:48,624][pt:9852:15896][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:37:48,657][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:48,782][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:48,786][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:48,789][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:48,803][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:48,845][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:48] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,706][pt:9852:15896][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:37:49,706][pt:9852:15896][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:37:49,707][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,723][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,726][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,730][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,802][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:37:49,844][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:37:49] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:02,168][pt:9852:15896][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:38:02,168][pt:9852:15896][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:38:02,170][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:02] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:07,447][pt:9852:15896][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:38:07,447][pt:9852:15896][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:38:07,448][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:07] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:21,959][pt:9852:15896][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:38:21,960][pt:9852:15896][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:38:21,960][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:21] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:21,976][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:21] "GET /static/home/lib/layui/css/layui.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:21,980][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:21] "GET /static/home/css/common.css HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:21,983][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:21] "GET /static/home/lib/layui/layui.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:22,053][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:22] "GET /static/home/lib/layui/lay/modules/element.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:22,095][pt:9852:15896][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:22] "GET /static/home/lib/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:38:43,796][pt:4128:2500][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:38:45,329][pt:13564:11132][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:38:45,338][pt:13564:11132][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:38:45,345][pt:13564:14420][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:38:48,144][pt:13564:14420][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:38:48,145][pt:13564:14420][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:38:48,197][pt:13564:14420][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:38:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:40:20,558][pt:13564:11132][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\config.py', reloading
+[INFO][tm:2018-12-28 21:40:20,604][pt:4128:2500][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:40:22,145][pt:2944:15392][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:40:22,154][pt:2944:15392][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:40:22,161][pt:2944:8804][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:40:26,313][pt:2944:8804][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:40:26,315][pt:2944:8804][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:40:26,467][pt:2944:8804][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:40:26] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:40:39,825][pt:2944:8804][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:40:39,825][pt:2944:8804][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:40:39,838][pt:2944:8804][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:40:39] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:40:46,904][pt:2944:8804][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:40:46,904][pt:2944:8804][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:40:46,917][pt:2944:8804][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:40:46] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:41:39,413][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:41:53,842][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:41:53,842][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:41:53,907][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:41:53] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:41:54,855][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:41:54,857][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:41:54,858][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:41:54] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:00,361][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:00,362][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:00,384][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:00] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:19,553][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:19,555][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:19,556][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:19] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:43,081][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:43,082][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:43,084][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:43] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:43,767][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:43,769][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:43,770][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:43] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:43,983][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:43,983][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:43,986][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:43] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:44,200][pt:10524:13700][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] xxxxxxxxxx
+[DEBUG][tm:2018-12-28 21:42:44,200][pt:10524:13700][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] dddddddd
+[INFO][tm:2018-12-28 21:42:44,203][pt:10524:13700][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:42:44] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:42:58,993][pt:15636:8328][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:43:00,486][pt:12064:14192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:43:00,496][pt:12064:14192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:43:00,503][pt:12064:14784][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:43:04,809][pt:12064:14784][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AAA
+[DEBUG][tm:2018-12-28 21:43:04,811][pt:12064:14784][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:43:04,865][pt:12064:14784][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:43:04] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:43:13,154][pt:12064:14192][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\app\\controller\\home\\IndexView.py', reloading
+[INFO][tm:2018-12-28 21:43:13,197][pt:15636:8328][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:43:14,759][pt:10916:8708][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:43:14,769][pt:10916:8708][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:43:14,775][pt:10916:9680][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:43:17,746][pt:10916:9680][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:43:17,746][pt:10916:9680][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:43:17,799][pt:10916:9680][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:43:17] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:43:18,825][pt:10916:9680][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:43:18,825][pt:10916:9680][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:43:18,826][pt:10916:9680][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:43:18] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:43:19,263][pt:10916:9680][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:43:19,263][pt:10916:9680][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:43:19,266][pt:10916:9680][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:43:19] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:43:49,299][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:43:51,749][pt:11588:6960][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:43:51,750][pt:11588:6960][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:43:51,823][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:43:51] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:44:04,750][pt:11588:6960][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:44:04,752][pt:11588:6960][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:44:04,756][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:44:04] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:45:40,384][pt:11588:6960][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:45:40,384][pt:11588:6960][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:45:40,413][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:45:40] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:45:48,657][pt:11588:6960][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:45:48,657][pt:11588:6960][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:45:48,673][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:45:48] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:45:57,688][pt:11588:6960][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] AX
+[DEBUG][tm:2018-12-28 21:45:57,690][pt:11588:6960][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] VVVV
+[INFO][tm:2018-12-28 21:45:57,691][pt:11588:6960][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:45:57] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:46:55,062][pt:11240:11716][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:46:59,457][pt:11240:11716][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] DDDDDDDDDD
+[DEBUG][tm:2018-12-28 21:46:59,459][pt:11240:11716][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] 啊啊啊啊啊
+[INFO][tm:2018-12-28 21:46:59,546][pt:11240:11716][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:46:59] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:47:16,667][pt:11240:11716][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] DDDDDDDDDD
+[DEBUG][tm:2018-12-28 21:47:16,667][pt:11240:11716][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] 啊啊啊啊啊
+[INFO][tm:2018-12-28 21:47:16,670][pt:11240:11716][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:47:16] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:47:41,378][pt:5988:5864][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:47:42,956][pt:11440:1176][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:47:42,970][pt:11440:1176][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:47:42,980][pt:11440:7500][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:47:43,299][pt:11440:7500][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] DDDDDDDDDD
+[DEBUG][tm:2018-12-28 21:47:43,299][pt:11440:7500][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] aaa
+[INFO][tm:2018-12-28 21:47:43,358][pt:11440:7500][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:47:43] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:47:48,246][pt:11440:1176][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\app\\controller\\home\\IndexView.py', reloading
+[INFO][tm:2018-12-28 21:47:48,290][pt:5988:5864][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:47:49,957][pt:7396:16028][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:47:49,967][pt:7396:16028][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:47:49,973][pt:7396:15260][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[INFO][tm:2018-12-28 21:47:50,305][pt:7396:15260][file:IndexView:dispatch_request:16][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] DDDDDDDDDD
+[DEBUG][tm:2018-12-28 21:47:50,306][pt:7396:15260][file:IndexView:dispatch_request:17][E:\workspace\flask_base_plus\app\controller\home\IndexView.py] 啊实打实的
+[INFO][tm:2018-12-28 21:47:50,378][pt:7396:15260][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py] 127.0.0.1 - - [28/Dec/2018 21:47:50] "GET / HTTP/1.1" 200 -
+[INFO][tm:2018-12-28 21:47:56,247][pt:7396:16028][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Detected change in 'E:\\workspace\\flask_base_plus\\app\\controller\\home\\IndexView.py', reloading
+[INFO][tm:2018-12-28 21:47:56,292][pt:5988:5864][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Restarting with stat
+[WARNING][tm:2018-12-28 21:47:57,911][pt:15176:5976][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger is active!
+[INFO][tm:2018-12-28 21:47:57,926][pt:15176:5976][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Debugger PIN: 841-965-237
+[INFO][tm:2018-12-28 21:47:57,934][pt:15176:11148][file:_internal:_log:88][E:\Python27\lib\site-packages\werkzeug\_internal.py]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

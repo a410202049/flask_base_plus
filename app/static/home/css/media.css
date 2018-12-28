@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@media screen and (min-width: 480px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-width: 1366px){
+  .layui-container{width: 1320px;}
+
+}
+
+@media screen and (min-width: 1440px){
+  .layui-container{width: 1400px;}
+
+}

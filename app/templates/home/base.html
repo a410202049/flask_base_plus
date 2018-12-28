@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
-		<meta name="author" content="www.divmb.com">
+        <meta charset="utf-8" />
+        <title>layui 模板应用市场</title>
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="keywords" content="layui store,应用市场,模板市场,前端模板,UI模板" />
+        <meta name="description" content="layuiStore 是 layui 官方推出的应用市场，主要提供各类前端 UI 模板及其它基于 layui 的高级应用，平台不仅提供 layui 自营应用，还面向开发者自主发布自己的 layui 应用。" />
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico', _external=True) }}">
         <title>{% block title %}{% endblock %}</title>
-        <link rel="stylesheet" href="{{ url_for('static',filename='home/css/common.css', _external=True)}}">
         <link rel="stylesheet" href="{{ url_for('static',filename='home/lib/layui/css/layui.css', _external=True)}}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='home/css/media.css', _external=True)}}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='home/css/common.css', _external=True)}}">
+
         {% block header %}
 
         {% endblock %}
 	</head>
     <body>
+        <header class="header">
+            <div class="layui-container">
+                <a class="logo" href="#"><img src="{{ url_for('static',filename='home/images/logo.png', _external=True)}}"></a>
+                <ul class="layui-nav">
+                    <li class="layui-nav-item layui-hide-xs"><a href="#">最新活动</a></li>
+                    <li class="layui-nav-item layui-hide-xs layui-this"><a href="#">产品</a></li>
+                    <li class="layui-nav-item layui-hide-xs"><a href="#">大数据</a></li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img"></a>
+                        <dl class="layui-nav-child">
+                          <dd><a href="javascript:;">修改信息</a></dd>
+                          <dd><a href="javascript:;">安全管理</a></dd>
+                          <dd><a href="javascript:;">退了</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
     {% block container %}{% endblock %}
     <script src="{{ url_for('static',filename='home/lib/layui/layui.js', _external=True) }}"></script>
+    <script>
+        layui.use('element', function(){
+          var element = layui.element;
+
+        });
+    </script>
     {% block script %}{% endblock %}
 	</body>
 </html>
