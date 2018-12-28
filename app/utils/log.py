@@ -50,22 +50,22 @@ class FinalLogger(object):
             '[file:%(module)s:%(funcName)s:%(lineno)d][%(pathname)s] %(message)s')
 
         # 流文件带颜色输出
-        # color_formatter = ColoredFormatter(
-        #     "%(log_color)s%(levelname)-8s%(reset)s %(white)s%(message)s",
-        #     datefmt=None,
-        #     reset=True,
-        #     log_colors={
-        #         'DEBUG': 'cyan',
-        #         'INFO': 'green',
-        #         'WARNING': 'yellow',
-        #         'ERROR': 'red',
-        #         'CRITICAL': 'red',
-        #     }
-        # )
+        color_formatter = ColoredFormatter(
+            "%(log_color)s%(levelname)-8s%(reset)s %(white)s%(message)s",
+            datefmt=None,
+            reset=True,
+            log_colors={
+                'DEBUG': 'cyan',
+                'INFO': 'green',
+                'WARNING': 'yellow',
+                'ERROR': 'red',
+                'CRITICAL': 'red',
+            }
+        )
 
         log_file_handler.setFormatter(formater)
 
-        log_console_handler.setFormatter(formater)
+        log_console_handler.setFormatter(color_formatter)
 
         #   添加handler到logger中
         FinalLogger.logger.addHandler(log_file_handler)
@@ -74,8 +74,6 @@ class FinalLogger(object):
         #   设置log的级别，默认为debug
         FinalLogger.logger.setLevel(FinalLogger.levels.get(FinalLogger.CONFIG['LOG_LEVEL']))
 
-        # log_file_handler.close()
-        # log_console_handler.close()
         #   返回一个logger对象
         return FinalLogger.logger
 

@@ -15,7 +15,6 @@ import sys
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
-logger = FinalLogger.get_logger()
 
 # 设置db.session.query 可以使用分页类
 session_options = {}
@@ -70,6 +69,10 @@ def create_app(config_name):
     # init utils
     import utils
     utils.init_app(app)
+
+    # init logger
+    log_handler = FinalLogger(app).get_logger()
+    app.logger.addHandler(log_handler)
 
     # init redis
     # from utils import redis_cache
