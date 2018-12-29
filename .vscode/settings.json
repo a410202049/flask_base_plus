@@ -1,0 +1,13 @@
+{
+    // 配置 glob 模式以排除文件和文件夹。
+    "files.exclude": {
+        "**/*.pyc":true,
+        "**/*.pyo":true,
+        "**/.idea":true,
+        "**/.settings":true,
+        "**/.vscode":true,
+        "**/.project":true,
+        "**/.pydevproject":true
+    },
+    "python.linting.pylintEnabled": false
+}

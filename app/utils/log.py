@@ -74,8 +74,6 @@ class FinalLogger(object):
         #   设置log的级别，默认为debug
         FinalLogger.logger.setLevel(FinalLogger.levels.get(FinalLogger.CONFIG['LOG_LEVEL']))
 
-        # log_file_handler.close()
-        # log_console_handler.close()
         #   返回一个logger对象
         return FinalLogger.logger
 

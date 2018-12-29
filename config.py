@@ -7,7 +7,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config:
-    DEBUG = False
+    DEBUG = True
     CONFIG_NAME = 'default'
     SECRET_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
     STRIPE_API_KEY = '\x03d\xf4\x95J\x15\xa4B\xfb\xc0\xaf \xd1A[j$}\x18\x16a\xe7\xd0\xec'
@@ -19,9 +19,6 @@ class Config:
     WTF_CSRF_ENABLED = False
     PAGE_SIZE = 15
     SQLALCHEMY_ECHO = False
-
-    NETWORK_FORMATTER = '[%(levelname)1.1s][%(method)s][tm:%(asctime)s][request_id:%(request_id)s]' \
-                        '[file:%(module)s:%(funcName)s:%(lineno)d] %(message)s'
 
     LOG_PATH = 'src.log'
 
