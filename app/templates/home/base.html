@@ -27,7 +27,10 @@
                     <li class="layui-nav-item layui-hide-xs layui-this"><a href="#">产品</a></li>
                     <li class="layui-nav-item layui-hide-xs"><a href="#">大数据</a></li>
                     <li class="layui-nav-item">
-                        <a href="javascript:;"><img src="//t.cn/RCzsdCq" class="layui-nav-img"></a>
+                        <a href="javascript:;">
+                            <img src="//t.cn/RCzsdCq" class="layui-nav-img">
+                            <cite class="layui-hide-xs">kerrygao</cite>
+                        </a>
                         <dl class="layui-nav-child">
                           <dd><a href="javascript:;">修改信息</a></dd>
                           <dd><a href="javascript:;">安全管理</a></dd>
@@ -36,16 +39,39 @@
                     </li>
                 </ul>
             </div>
-
         </header>
+        <div class="search-nav">
+            <div class="layui-container">
+                <div class="layui-hide-xs"><a href="#" class="topbar-logo"> <img src="{{ url_for('static',filename='home/images/logo-1.png', _external=True)}}"></a> </div>
+                <form action="#" class="search-form">
+                    <input class="input-search" type="text" placeholder="搜索你需要的模板应用" name="keywords" autocomplete="off" value="">
+                    <button class="layui-btn search-btn"><i class="layui-icon layui-icon-search"></i></button>
+
+                    <dl class="layui-hide-sm layui-show-md-inline-block">
+                        <dt>热搜：</dt>
+                        <dd><a href="/store/search/后台/">后台</a></dd>
+                        <dd><a href="/store/search/IM/">IM</a></dd>
+                        <dd><a href="/store/search/商城/">商城</a></dd>
+                        <dd><a href="/store/search/博客/">博客</a></dd>
+                        <dd><a href="/store/search/新闻/">新闻</a></dd>
+                        <dd><a href="/store/search/企业/">企业</a></dd>
+                        <dd><a href="/store/search/社区/">社区</a></dd>
+                        <dd><a href="/store/search/" style="color: #FF5722;">全部</a></dd>
+                    </dl>
+
+                </form>
+            </div>
+        </div>
+
     {% block container %}{% endblock %}
     <script src="{{ url_for('static',filename='home/lib/layui/layui.js', _external=True) }}"></script>
-    <script>
-        layui.use('element', function(){
-          var element = layui.element;
-
-        });
-    </script>
+    <script src="{{ url_for('static',filename='home/js/common.js', _external=True) }}"></script>
+{#    <script>#}
+{#        layui.use('element', function(){#}
+{#          var element = layui.element;#}
+{##}
+{#        });#}
+{#    </script>#}
     {% block script %}{% endblock %}
 	</body>
 </html>
