@@ -3,6 +3,3 @@
 *.swp
 .idea
 /flask_record.log
-src.log
-running.log
-app/utils/running.log
