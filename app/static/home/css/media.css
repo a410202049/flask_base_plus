@@ -6,6 +6,7 @@
 @media screen and (max-width: 768px){
   .search-nav .input-search{width: 60%!important;}
 
+  /*banner*/
   .shop-banner .layui-carousel img{width: 350px; height: 115px;}
   .shop-banner .layui-carousel{height: 115px;}
   .shop-banner{margin-top: 20px;}
@@ -19,6 +20,7 @@
 @media screen and (min-width: 768px){
   .search-nav .input-search{width: 550px;}
 
+  /*banner*/
   .product-list dl dt{display: block;}
   .product-list dl dd{display: block; width: 100%; margin: 0; line-height: 60px; border: none; border-radius: none; border-bottom: 1px solid #f0f0f0;}
   .product-list dl dd a{line-height: 65px;}
@@ -45,6 +47,8 @@
 
 @media screen and (min-width: 1440px){
   .layui-container{width: 1400px;}
+
+  /*banner*/
   .shop-banner .layui-carousel img{margin-left: 0;}
 
 }
