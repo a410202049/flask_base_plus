@@ -71,8 +71,8 @@ h1,h2,h3{font-size: 14px;}
 .search-nav.scroll input{width: 350px;}
 
 /*banner*/
-.shop-banner{ margin-top: 70px; background: #677ee4; text-align: center;}
-.shop-banner .layui-carousel{height: 460px; background: #5694E9;}
+.shop-banner{ margin-top: 70px; text-align: center;}
+.shop-banner .layui-carousel{height: 460px; }
 .shop-banner .layui-carousel img{width: 100%;}
 
 .shop-banner .layui-carousel .layui-container{width: 1400px!important;}
