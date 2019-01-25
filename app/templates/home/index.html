@@ -2,85 +2,105 @@
 {% block title %}测试首页{% endblock %}
 
 {% block container %}
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-        ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
-    ss<br>
+    <div class="shop-banner">
+        <div class="layui-container layui-hide-xs">
+            <div class="product-list">
+                <dl>
+                    <dt><a href="/store/cat/0/">模板分类</a></dt>
+                    <dd><a href="/store/cat/1/">后台管理</a></dd>
+                    <dd><a href="/store/cat/2/">商城购物</a></dd>
+                    <dd><a href="/store/cat/3/">社区论坛</a></dd>
+                    <dd><a href="/store/cat/4/">主页博客</a></dd>
+                    <dd><a href="/store/cat/5/">企业门户</a></dd>
+                    <dd><a href="/store/cat/6/">资讯头条</a></dd>
+                    <dd><a href="/store/cat/7/">其它模板</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="layui-carousel" id="index-banner">
+            <div carousel-item>
+                <div style="background: #F2E6D6">
+                    <div class="layui-container">
+                        <a href="/store/layuiHomeMall/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1541579354090_82219.jpg', _external=True)}}"
+                            alt="简约家居商城模板">
+                        </a>
+                    </div>
+                </div>
+                <div style="background: #E7E6EE">
+                    <div class="layui-container">
+                        <a href="/store/layuiSimpleNews/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1541751659392_62620.jpg', _external=True)}}"
+                            alt="极简新闻资讯模板">
+                        </a>
+                    </div>
+                </div>
+                <div style="background: #171717">
+                    <div class="layui-container">
+                        <a href="/store/layuiQuietBlog/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1541578489374_99939.jpg', _external=True)}}"
+                            alt="静谧风格个人博客模板">
+                        </a>
+                    </div>
+                </div>
+                <div style="background: #F5F5F5">
+                    <div class="layui-container">
+                        <a href="/store/layuiCateCompany/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1542012881618_47524.jpg', _external=True)}}"
+                            alt="餐饮企业网站模板">
+                        </a>
+                    </div>
+                </div>
+                <div style="background: #E2DEF5">
+                    <div class="layui-container">
+                        <a href="/store/layuiMaternalBabyMall/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1542013154213_82579.jpg', _external=True)}}"
+                            alt="母婴商城模板">
+                        </a>
+                    </div>
+                </div>
+                <div style="background: #040227">
+                    <div class="layui-container">
+                        <a href="/store/layuiSimpleBlog/" target="_blank">
+                            <img src="{{ url_for('static',filename='home/images/tmp/168_1542012996419_29784.jpg', _external=True)}}"
+                            alt="极简博客模板">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
+    </div>
 {#    {{ student.name }}#}
 {#    {{ school.name }}#}
 {#    ssssssssssss#}
 {#    aaaaaaadaddd#}
-{% endblock %}    
+{% endblock %}
+{% block script %}
+    <script>
+        layui.define(['carousel'], function(){
+            var $ = layui.jquery;
+            var carousel = layui.carousel;
+             //轮播渲染
+            var elemBanner = $('#index-banner'), ins1 = carousel.render({
+                elem: elemBanner
+                ,width: '100%'
+                ,height: elemBanner.height() + 'px'
+                ,arrow: 'none'
+                ,interval: 6000
+                ,anim: 'fade'
+            });
+            $(window).on('resize', function(){
+                var width = $(this).prop('innerWidth');
+                console.log(width);
+                ins1.reload({
+                  height: (width > 768 ? 460 : 115) + 'px'
+                });
+            });
+            //监听轮播切换事件
+            carousel.on('change(index-banner)', function(obj){
+                $('.index-banner-box').css('background', obj.item.data('color'));
+            });
+        })
+    </script>
+{% endblock %}

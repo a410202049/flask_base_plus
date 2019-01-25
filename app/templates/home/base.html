@@ -11,8 +11,9 @@
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico', _external=True) }}">
         <title>{% block title %}{% endblock %}</title>
         <link rel="stylesheet" href="{{ url_for('static',filename='home/lib/layui/css/layui.css', _external=True)}}">
-        <link rel="stylesheet" href="{{ url_for('static',filename='home/css/media.css', _external=True)}}">
         <link rel="stylesheet" href="{{ url_for('static',filename='home/css/common.css', _external=True)}}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='home/css/media.css', _external=True)}}">
+
 
         {% block header %}
 
@@ -62,6 +63,7 @@
                 </form>
             </div>
         </div>
+
 
     {% block container %}{% endblock %}
     <script src="{{ url_for('static',filename='home/lib/layui/layui.js', _external=True) }}"></script>
