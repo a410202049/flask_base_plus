@@ -55,12 +55,30 @@ h1,h2,h3{font-size: 14px;}
 .search-nav dl dd, .search-nav dl dt{display: inline-block; color: #9495a4;}
 .search-nav dl dd a{color: #b3b6b8; margin-right: 10px;}
 .search-nav dl dd a:hover{color: #9495a4;}
+.nav-span{
+    display: inline-block;
+}
+
+.layui-nav .layui-nav-item-login .nav-span a{
+    padding: 0 8px;
+    color: rgba(255,255,255,.7);
+}
+.layui-nav .layui-nav-item-login .nav-span a:hover{
+    color: #ffffff;
+}
 
 .topbar-logo{
     display: none;
 }
 .topbar-logo img{
     width: 82px;
+}
+
+.layui-nav-item-login{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
 }
 
 .search-nav.scroll{position: fixed; top: 60px; z-index: 999; top: 0; padding-top: 10px; box-shadow: 0px 3px 3px rgba(0,0,0,0.15);}

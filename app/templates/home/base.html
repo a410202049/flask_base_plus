@@ -38,6 +38,10 @@
                           <dd><a href="javascript:;">退了</a></dd>
                         </dl>
                     </li>
+
+{#                    <li class="layui-nav-item-login">#}
+{#                        <span class="nav-span"><a href="#">注册</a></span>|<span class="nav-span"><a href="#">登录</a></span>#}
+{#                    </li>#}
                 </ul>
 
             </div>
@@ -69,12 +73,6 @@
     {% block container %}{% endblock %}
     <script src="{{ url_for('static',filename='home/lib/layui/layui.js', _external=True) }}"></script>
     <script src="{{ url_for('static',filename='home/js/common.js', _external=True) }}"></script>
-{#    <script>#}
-{#        layui.use('element', function(){#}
-{#          var element = layui.element;#}
-{##}
-{#        });#}
-{#    </script>#}
     {% block script %}{% endblock %}
 	</body>
 </html>
